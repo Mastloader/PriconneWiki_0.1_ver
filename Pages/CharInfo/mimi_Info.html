@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="../../Images/favicon_onigiri.png">
+	<link rel="stylesheet" type="text/css" href="../../css/style2.css">
+	<title> 미미 | 프린세스 커넥트! Re:Dive 위키 </title>
+	
+	<style type="text/css">
+	a:link { color: black; text-decoration: none;}
+	a:visited { color: black; text-decoration: none;}
+	a:hover { color:#0078d7; text-decoration: underline;}
+	</style>
+
+</head>
+
+
+
+<body>
+
+	
+		<div id="container">
+		
+			<div id="sidebar">
+				<h1 id="toggle-bar" style="text-align:center">
+				☰ MENU
+				</h1>
+				
+				<ul class="mainMenu">
+					<ul>
+					<br>
+					<li><a href="index.html">Top</a></li>
+					</ul>
+					<br>
+					<h3>처음이신가요?</h3>
+						<ul>
+							<li><a href="../../Pages/intro.html">게임소개</a></li>
+							<li><a href="../../Pages/howtoplay.html">뉴비 지침서</a></li>
+							<li><a href="../../Pages/questions.html">자주 묻는 질문들</a></li>
+						</ul>
+					<br>
+					
+					<p class="text1">
+					<h3>시스템</h3>
+						<ul>
+							<li>상점</li>
+							<li>미션</li>
+								<ul>
+									<li>데일리</li>
+									<li>노멀</li>
+								</ul>
+							<li>길드하우스</li>
+						</ul>
+						<br>
+						
+					<p class="text1">
+					<h3>캐릭터</h3>
+						<ul>
+							<li><a href="../../Pages/charList.html">캐릭터 목록</a></li>
+							<li>캐릭터 배치 순서</li>
+							<li>캐릭터 포지션</li>
+								<ul>
+									<li>탱커</li>
+									<li>물리 딜러</li>
+									<li>마법 딜러</li>
+								</ul>
+
+							<li>스킬</li>
+								<ul>
+									<li>버프</li>
+									<li>디버프</li>
+									<li>상태 이상</li>
+								</ul>
+							<li>스테이터스에 대하여</li>
+							<li>계산식</li>
+							<li>메모리 피스</li>
+							<li>☆6 재능개화</li>
+						</ul>
+					<br>
+					
+					<p class="text1">
+					<h3>퀘스트</h3>
+						<ul>
+							<li>몬스터</li>
+							<li>메인 퀘스트</li>
+								<ul>
+									<li>NORMAL</li>
+									<li>HARD</li>
+									<li>VERY HARD</li>
+								</ul>
+							<li>던전</li>
+							<li>탐색</li>
+							<li>조사</li>
+								<ul>
+									<li>성적조사</li>
+									<li>신전조사</li>
+								</ul>
+						</ul>
+					<br>
+					
+					<h3>아레나</h3>
+						<ul>
+						<li>아레나에 대하여</li>
+						</ul>
+					<br>
+					
+					<h3>이벤트</h3>
+						<ul>
+							<li>이벤트</li>
+								<ul>
+									<li>루나의 탑</li>
+								</ul>
+							<li>클랜전</li>
+								<ul>
+									<li>추천 캐릭터</li>
+									<li>테크닉</li>
+								</ul>
+						</ul>
+					<br>
+										
+				</ul>
+			</div>
+			
+			<script>
+			
+			function toggleMenu()
+			{
+				let getMenu = document.querySelector(".mainMenu");
+				getMenu.classList.toggle("hamburger");
+				
+			}
+			
+			let getHamburger = document.querySelector("#toggle-bar");
+			getHamburger.addEventListener("click", toggleMenu);
+			
+			</script>
+
+
+	
+		<div id="contents">
+			
+			<h2>목차</h2>
+				<ul style="font-size:14px">
+					<li><a href="#1.1">프로필</a></li>
+					<li><a href="#2.1">개요</a></li>
+					<li><a href="#3.1">길드</a></li>
+					<br>
+					<li><a href="#4.1">장비 일람</a></li>
+						<ol>
+							<li><a href="#4.1.1">공통 장비</a></li>
+							<li><a href="#4.1.2">전용 장비</a></li>	
+								<ul>
+								<li>
+								토끼씨 블레이드
+								</li>
+								</ul>
+						</ol>
+					<br>
+					<li><a href="#5.1">유니온 버스트(UB)</a></li>
+						<ol>
+							<li><a href="#5.1.1">토끼씨 슬래시</a></li>
+						</ol>
+					<br>
+					<li><a href="#6.1">스킬</a></li>
+						<ol>
+							<li><a href="#6.1.1">뿅뿅 어택</a></li>
+							<li><a href="#6.1.2">토끼씨의 응원</a></li>
+						</ol>
+					<br>
+					<li><a href="#7.1">EX스킬</a></li>
+						<ol>
+							<li><a href="#7.1.1">토끼씨 파워</a></li>
+							<li><a href="#7.1.2">토끼씨 파워+</a></li>
+						</ol>
+					<br>
+					<li><a href="#8.1">행동 패턴</a></li>	
+					<li><a href="#9.1">순서</a></li>
+					<li><a href="#10.1">스토리</a></li>					
+					<li><a href="#11.1">종합평가</a></li>
+					<li><a href="#12.1">운용과 편성</a></li>
+					<br>
+					<li><a href="#13.1">재능개화</a></li>
+						<ol>
+							<li><a href="#13.1.1">★3 일러스트</a></li>
+						</ol>
+					<li><a href="#14.1">기타</a></li>
+						<ol>
+							<li><a href="#14.1.1">생일 기념 일러스트</a></li>
+						</ol>
+					<br>
+				</ul>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="1.1"></a>캐릭터 프로필</h2>
+			
+			<table style="border:2px solid">
+			
+				<tr>
+					<td style="background-color:#f55291" colspan="2">
+					<span style="color:#ffffff; font-size:30px; font-weight:bold;">
+					미미
+					</span>
+					<br>
+					<span style="color:#ffffff; font-weight:bold;">
+					ミミ
+					</span>
+					</td>
+				</tr>
+				<tr style="border:2px solid">
+					<td colspan="2"><img src="../../Images/charPortraits/mimi.png" style="max-width:100%; height:auto;"></td>
+				</tr>
+				
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					신장
+					</span>
+					</td>
+					<td>117cm</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					체중
+					</span>
+					</td>
+					<td>21kg</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					나이
+					</span>
+					</td>
+					<td>10세</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					생일
+					</span>
+					</td>
+					<td>4월 3일</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					혈액형
+					</span>
+					</td>
+					<td>O형</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					종족
+					</span>
+					</td>
+					<td>수인</td>
+				</tr>
+				<tr>
+					<td style=" background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					길드
+					</span>
+					</td>
+					<td>리틀 리리컬</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					취미
+					</span>
+					</td>
+					<td>귀여운 물건 수집</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					CV
+					</span>
+					</td>
+					<td>히다카 리나</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					레어도
+					</span>
+					</td>
+					<td>★★☆☆☆</td>
+				</tr>
+			</table>
+		
+			<br>
+				<table style="max-width:50%; margin:auto; border:2px solid">
+					<tr style="border-bottom:2px solid">
+						<td style="background-color:#f55291; font-weight:bold;">
+						<span style="color:white">
+						메모리 피스 입수처
+						</span>
+						</td>
+						<td>
+						메인 퀘스트 HARD<br>3-3, 9-2, 15-2, 23-2
+						</td>
+					<tr>
+				</table>
+			</br>
+			
+			<h2><a name="2.1"></a>개요</h2>
+			프린세스 커넥트! Re:Dive 등장인물 중에서 최연소 캐릭터. 나이에 걸맞지 않은 합리적이고 침착한 행동과 공부로 습득한 지식으로 어른스러운 모습을 보여준다. 이 때문에 자기보다 연상인 미미와 미소기에게 공부를 가르쳐줄 때가 많다.
+			<br></br>
+			남자를 잘 믿지 못하는 편인지 평소에는 차갑게 대한다. 주인공에게도 처음에는 변태라느니 수상한 사람 취급하며 거침없는 독설을 하고 있지만, 어른들에게서 배운 지식을 그대로 활용하고 있어서 본심과는 살짝 다르기도.
+			<br></br>
+			피망을 싫어하는 모습이 자주 나오는데, 캐릭터 스토리에서도 피망을 극복하려는 웃픈 에피소드가 있다.
+
+			<br></br>
+			<br></br>
+			
+			<h2><a name="3.1"></a>길드</h2>
+			최연장자라 길드【리틀 리리컬】 길드 마스터의 포지션이지만, 길드관리협회 규정 상 미성년자의 길드 창설 및 가입은 불가능하다. 이러한 이유로 사실상 같이 어울려 다니는 소녀들 중에서 맏언니일 뿐.
+			
+			<br></br>
+			
+			<span style="font-weight:bold">전투 시 특별 대화 이벤트가 있는 캐릭터</span><br>
+			<img src="../../Images/charIcon/misogi_Icon.png" style="max-width:100%; height:auto;">
+			<img src="../../Images/charIcon/kyouka_Icon.png" style="max-width:100%; height:auto;">
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="4.1"></a>장비 일람</h2>
+			
+			<h3><a name="4.1.1"></a>1. 공통 장비</h3>
+			<details>
+				<summary>RANK1 ~ RANK9</summary>
+				<table style="border:2px solid">
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK1
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/184_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/137_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/110_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/67_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/23_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/32_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK2
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/182_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/183_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/98_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/45_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/110_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/32_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK3
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/180_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/135_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/135_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/66_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/22_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/31_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK4
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/178_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/180_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/106_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/56_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/58_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/30_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK5
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/176_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/132_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/104_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/43_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/56_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/29_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK6
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/174_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/156_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/102_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/43_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/64_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/27_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK7
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/194_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/192_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/100_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/25_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/16_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/27_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK8
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/233_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/201_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/230_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/185_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/229_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/25_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK9
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/282_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/249_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/265_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/231_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/268_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/229_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+				</table>
+			</details>
+			
+			<details>
+				<summary>RANK10 ~</summary>
+				<table style="border:2px solid">
+				
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK10
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/309_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/283_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/296_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/265_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/290_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/268_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK11
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/346_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/325_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/336_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/297_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/328_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/288_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK12
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/385_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/354_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/375_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/336_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/365_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/328_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK13
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/428_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/387_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/409_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/371_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/402_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/365_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK14
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/459_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/424_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/448_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/409_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/440_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/402_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					
+						<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK15
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/i_noimage.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/472_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/i_noimage.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/448_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/i_noimage.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/440_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+				
+				</table>
+			</details>
+			
+			<br></br>
+			<br></br>
+			
+			<h3><a name="4.1.2"></a>2. 전용 장비</h3>
+			<table style="border:2px solid">
+					<tr>
+					<td rowspan="2" style="border:2px solid">
+					<img src="../../Images/exclusive/mimi_ex.png">
+					</td>
+					<td colspan="3" style="background-color:#f55291;">
+					<span style="color:white; font-weight:bold;">
+					토끼씨 블레이드
+					</span>
+					</td>
+					</tr>
+					<tr>
+					<td colspan="3" style="border:2px solid">
+					미미가 애용하는 양손검.
+					<br>
+					귀여운 디자인에 푹 빠진 미미가 한 번 휘둘렀다 하면 겉보기와는 공격 범위에 혀를 내두를 정도로 위협적이다.
+					</td>
+					</tr>
+					
+					<tr>
+					<td style="background-color:#f55291; border-right:2px solid">
+					<span style="color:white">
+					강화 스킬
+					</span>
+					</td>
+					<td colspan="3" style="border-right:2px solid">
+					뿅뿅 어택+
+					</td>
+					</tr>
+
+					<tr>
+					<td style="background-color:#f55291; border-right:2px solid">
+					<span style="color:white">
+					강화 내용
+					</span>
+					</td>
+					<td colspan="3" style="border-right:2px solid">
+					<span style="color:rgb(200,35,35)">전방의 적 모두에게 물리 (대) 데미지를 입힌다.</span>
+					</td>
+					</tr>
+					
+					
+					<tr style="border:2px solid">
+						<td style="background-color:#f55291;">
+						<span style="color:white">
+						레벨
+						</span>
+						</td>
+						<td style="background-color:#f55291;">
+						<span style="color:white">
+						물리 공격력
+						</span>
+						</td>
+						<td style="background-color:#f55291;">
+						<span style="color:white">
+						물리 크리티컬
+						</span>
+						</td>
+						<td style="background-color:#f55291;">
+						<span style="color:white">
+						명중
+						</span>
+						</td>
+					</tr>
+					
+					
+					<tr>
+						<td>
+						Lv1
+						</td>
+						<td>
+						88
+						</td>
+						<td>
+						15
+						</td>
+						<td>
+						3
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv30
+						</td>
+						<td>
+						216
+						</td>
+						<td>
+						37
+						</td>
+						<td>
+						3
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv50
+						</td>
+						<td>
+						304
+						</td>
+						<td>
+						52
+						</td>
+						<td>
+						3
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv70
+						</td>
+						<td>
+						392
+						</td>
+						<td>
+						67
+						</td>
+						<td>
+						3
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv90
+						</td>
+						<td>
+						480
+						</td>
+						<td>
+						82
+						</td>
+						<td>
+						3
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv110
+						</td>
+						<td>
+						568
+						</td>
+						<td>
+						97
+						</td>
+						<td>
+						3
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv130
+						</td>
+						<td>
+						656
+						</td>
+						<td>
+						112
+						</td>
+						<td>
+						3
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv140
+						</td>
+						<td>
+						700
+						</td>
+						<td>
+						120
+						</td>
+						<td>
+						3
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv150
+						</td>
+						<td>
+						744
+						</td>
+						<td>
+						127
+						</td>
+						<td>
+						3
+						</td>
+					</tr>
+			</table>
+								
+			<br></br>
+			<br></br>
+			
+			<h2><a name="5.1"></a>유니온 버스트(UB)</h2>
+			※ 설명란에 기재된 데미지는 상대 방어력이 0일 때로 가정하였습니다.
+			<br></br>
+			
+			<h3><a name="5.1.1"></a>1. 토끼씨 슬래시</h3>
+			<table style="border:2px solid">
+				<tr>
+					<td colspan="2">
+					<img src="../../Images/unionburst/mimi.gif" style="max-width:100%; height:auto;">
+					</td>
+				</tr>
+				
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 설명
+					</span>
+					</td>
+					
+					<td>
+					전방의 적 하나에게 물리 (중) 데미지를 입히고, 2번째 순서의 적 하나에게 물리 (대) 데미지를 입힌다.
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과
+					</span>
+					</td>
+					
+					<td>
+					1번째 위치의 적 하나에게 물리 데미지 {24 × (<span style="color:rgb(35,200,35); font-weight:bold">스킬Lv</span> + 1) + <span style="color:rgb(200,35,35); font-weight:bold">물리 공격력</span> × 1.8}
+					<br>
+					2번째 위치의 적 하나에게 물리 데미지 {45 × (<span style="color:rgb(35,200,35); font-weight:bold">스킬Lv</span> + 1) + <span style="color:rgb(200,35,35); font-weight:bold">물리 공격력</span> × 3.6}
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="border:2px solid; text-align:left">
+						<ul>
+							<li>Lv118일 때 13657 데미지(1히트), 26958 데미지(2히트)</li>
+							<li>합계 40616 데미지</li>
+							<li>상대가 단일 개체일 경우, 2히트 총합 배율만 5.4배</li>
+							<li>재능개화로 공격력이 270 가량 상승하기에 매 개화마다 합계 1458 데미지 상승</li>
+							<li>☆5 상태에서 48430 데미지</li>
+							<li>☆5 상태에서 토끼씨의 응원까지 더해진다면 1927 데미지 상승</li>
+						</ul>
+					</td>
+				</tr>
+
+			</table>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="6.1"></a>스킬</h2>
+			
+			<h3><a name="6.1.1"></a>1. 뿅뿅 어택</h3>
+				<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					사용 조건
+					</span>
+					</td>
+					
+					<td>
+					RANK2 이상
+					</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 설명
+					</span>
+					</td>
+					
+					<td>
+					전방의 적 하나에게 물리 (중) 데미지를 부여한다.
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과 (전장 미착용)
+					</span>
+					</td>
+					
+					<td>
+					전방의 적 하나에게 물리 데미지 {20 × (<span style="color:rgb(35,200,35); font-weight:bold">스킬Lv</span> + 1) + <span style="color:rgb(200,35,35); font-weight:bold">물리 공격력</span> × 1.6}
+					</td>
+				</tr>
+				
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과 (전장 착용)
+					</span>
+					</td>
+					<td>
+					전방의 적 모두에게 물리 데미지 {27 × (<span style="color:rgb(35,200,35); font-weight:bold">스킬Lv</span> + 1) + <span style="color:rgb(200,35,35); font-weight:bold">물리 공격력</span> × 2.1}
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="border:2px solid; text-align:left">
+					<ul>
+						<li>전장 미착용</li>
+						<ul>
+							<li>Lv118일 때 적 하나에게 11981 데미지</li>
+							<li>공격 대상에 맞춰서 자동으로 포지션 조정</li>
+							<li>이 특성으로 넉백이나 끌어당기기 스킬에 당하면 캐릭터 배치순서가 붕괴되거나 역전하는 경우가 많다</li>
+						</ul>
+					</ul>
+					<ul>
+						<li>전장 착용</li>
+						<ul>
+							<li>☆5/Lv118일 때 적 파티 선두에서부터 18381 범위 데미지</li>
+							<li>전장 착용 전과 동일하게 포지션 조정을 실시</li>
+							<li>범위는 가까운 적으로부터의 거리를 기준으로 하므로, 미미를 앞에 내세워도 표적이 늘어나거나 하진 않음</li>
+						</ul>
+					</ul>
+					</td>
+				</tr>
+
+			</table>
+
+			<br>
+
+			<h3><a name="6.1.2"></a>2. 토끼씨의 응원</h3>
+			<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					사용 조건
+					</span>
+					</td>
+					
+					<td>
+					RANK4 이상
+					</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 설명
+					</span>
+					</td>
+					
+					<td>
+					아군 전체의 물리 공격력을 (소) 상승시킨다.
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과
+					</span>
+					</td>
+					
+					<td>
+					아군 전체의 물리 공격력 업 {28 × (<span style="color:rgb(35,200,35); font-weight:bold">스킬Lv</span> + 1)} (12초)
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="border:2px solid; text-align:left">
+					<ul>
+						<li>Lv118일 때 아군 전체 물리 공격력 357 업</li>
+						<li>상승치는 낮아도 파티의 최저 화력을 보완하는 스킬</li>
+					</ul>
+					</td>
+				</tr>
+
+			</table>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="7.1"></a>EX스킬</h2>
+			
+			<h3><a name="7.1.1"></a>1. 토끼씨 파워</h3>
+				<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					사용 조건
+					</span>
+					</td>
+					
+					<td>
+					RANK7 이상
+					</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 설명
+					</span>
+					</td>
+					
+					<td>
+					전투 시작 시 자신의 물리 공격력이 (중) 증가한다.
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과
+					</span>
+					</td>
+					
+					<td>
+					자신의 물리 공격력 {15 × (<span style="color:rgb(35,200,35); font-weight:bold">스킬Lv</span> + 1)}
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="border:2px solid; text-align:left">
+					<ul>
+						<li>타 캐릭터들과 같은 공격력 증강 스킬</li>
+					</ul>
+					</td>
+				</tr>
+
+			</table>
+			
+			<br>
+			
+			<h3><a name="7.1.2"></a>2. 토끼씨 파워+</h3>
+						<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					사용 조건
+					</span>
+					</td>
+					
+					<td>
+					RANK7 & ☆5 이상
+					</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 설명
+					</span>
+					</td>
+					
+					<td>
+					전투 시작 시 자신의 물리 공격력을 <span style="color:rgb(200,35,35); font-weight:bold">(대)</span> 상승시킨다.
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과
+					</span>
+					</td>
+					
+					<td>
+					자신의 물리 공격력 {240 + (15 × <span style="color:rgb(35,200,35); font-weight:bold">스킬Lv</span>)}
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="border:2px solid; text-align:left">
+					<ul>
+						<li>☆5가 되면 증가 수치도가 대폭 상승</li>
+					</ul>
+					</td>
+				</tr>
+
+			</table>
+											
+			<br></br>
+			<br></br>
+			
+			<h2><a name="8.1"></a>행동 패턴</h2>
+				
+				<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291">
+					<span style="color:white">
+					시작
+					</span>
+					</td>
+
+				</tr>
+				
+				<tr>
+				<td>
+					<img src="../../Images/patterns/skill_4_2.png" style="vertical-align:middle; max-width:50px; height:auto;">
+					<span class="chevron"></span>
+					<img src="../../Images/patterns/skill_1_1.png" style="vertical-align:middle; max-width:50px; height:auto;">
+				</td>
+				</tr>
+				
+				<tr>
+					<td style="background-color:#f55291">
+					<span style="color:white">
+					로테이션
+					</span>
+					</td>
+				</tr>
+				
+				<tr>
+				<td>
+				<img src="../../Images/patterns/i_attacker.png" style="vertical-align:middle">
+				<span class="chevron"></span>
+				<img src="../../Images/patterns/i_attacker.png" style="vertical-align:middle">
+				<span class="chevron"></span>
+				<img src="../../Images/patterns/skill_4_2.png" style="vertical-align:middle; max-width:50px; height:auto;">
+				<span class="chevron"></span>
+				<img src="../../Images/patterns/i_attacker.png" style="vertical-align:middle">
+				<span class="chevron"></span>
+				<img src="../../Images/patterns/skill_1_1.png" style="vertical-align:middle; max-width:50px; height:auto;">
+
+				</td>
+				</tr>
+			</table>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="9.1"></a>캐릭터 순서</h2>
+			
+			<table style="border:2px solid">
+				<tr>
+					<td colspan="4" style="background-color:#c7d713;">
+					<span style="color:white">
+					중열
+					</span>
+					</td>
+					<td colspan="3" style="background-color:#f55291;">
+					<span style="color:white">
+					전열
+					</span>
+					</td>
+				</tr>
+	
+
+				<tr>
+					<td style="background-color:rgb(230,230,230);">
+					뒤
+					</td>
+					<td>
+					<img src="../../Images/charIcon/shizuru_valentine_Icon.png" style="max-width:80%; height:auto;">
+					</td>
+					<td>
+					<img src="../../Images/charIcon/shinobu_Icon.png" style="max-width:80%; height:auto;">
+					</td>
+					<td>
+					<img src="../../Images/charIcon/mimi_Icon.png" style="max-width:100%; height:auto;">
+					</td>
+					<td>
+					<img src="../../Images/charIcon/kurumi_chrismas_Icon.png" style="max-width:80%; height:auto;">
+					</td>
+					<td>
+					<img src="../../Images/charIcon/chris_Icon.png" style="max-width:80%; height:auto;">
+					</td>
+					<td style="background-color:rgb(230,230,230);">
+					앞
+					</td>
+				</tr>
+			</table>
+
+			<br></br>
+			<br></br>
+			
+			<h2><a name="10.1"></a>캐릭터 스토리</h2>
+			
+			※ 미미(할로윈) 캐릭터와 능력치 보너스를 공유합니다.
+			</br>
+			<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					화수
+					</span>
+					</td>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					제목
+					</span>
+					</td>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					능력치 보너스
+					</span>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제1화
+					</td>
+					<td>
+					-
+					</td>
+					<td>
+					-
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제2화
+					</td>
+					<td>
+					-
+					</td>
+					<td>
+					마법 공격력+15
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제3화
+					</td>
+					<td>
+					-
+					</td>
+					<td>
+					마법 공격력+15
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제4화
+					</td>
+					<td>
+					-
+					</td>
+					<td>
+					마법 공격력+30
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제5화
+					</td>
+					<td>
+					-
+					</td>
+					<td>
+					마법 공격력+40
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제6화
+					</td>
+					<td>
+					-
+					</td>
+					<td>
+					마법 공격력+60
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제7화
+					</td>
+					<td>
+					-
+					</td>
+					<td>
+					마법 공격력+60
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제8화
+					</td>
+					<td>
+					-
+					</td>
+					<td>
+					마법 공격력+80 / 마법 크리티컬+10
+					</td>
+				</tr>
+				
+			</table>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="11.1"></a>종합평가</h2>
+			
+			<ul>
+				<li>총평</li>
+				<ul>
+					<li>방어지향적 딜러 + 전체 물리 공격력 버프 보유</li>
+					<li>UB는 2히트 모두 맞으면 고화력</li>
+					<li>상대측 2번째 캐릭터에게도 UB를 날릴 수 있다는 점이 특징</li>
+					<li>방어지향 딜러치고는 DPS가 높은 편</li>
+					<li>비슷한 화력을 가진 딜러들과 비교하면 자체 딜링 능력은 조금 낮음</li>
+				</ul>
+			</ul>
+			<br></br>
+			<br></br>
+			
+			<h2><a name="12.1"></a>운용과 편성</h2>
+			
+			<ul>
+				<li>아레나 적성도 : 높음</li>
+				<ul>
+					<li>전용 장비가 전제조건이지만 공방 양쪽 모두 사용. 생각 외로 생존율이 높다.</li>
+					<li>범위 공격이 쓸 데 없이 강함</li>
+						<ul>
+							<li>UB의 범위 공격이 시노부(할로윈)와(과) 닮아있지만, 판정 자체가 가까운 적과의 거리를 기준으로 하기 때문에 운용 자체는 상이하다</li>
+							<li>대체로 후열에 가까운 중열 캐릭터나 중열에 가까운 후열 캐릭터라면 무난하게 맞음</li>
+						</ul>
+					<li>단발성 고화력 스킬을 가지고 있어 크리티컬 영향을 크게 받음</li>
+					<li>UB로 2명 동시 공격이 가능하기 때문에 강력</li>
+						<ul>
+							<li>방덱에서는 UB 때문에 2탱이 강제된다</li>
+							<li>중열 정리 후에 UB로 힐러를 처리하기에도 좋은 캐릭터</li>
+							<li>도발 탱커에게 UB가 그쪽으로만 꽂힐 수 있으니 운용에 주의</li>
+						</ul>
+					<li>행동 패턴 2회차에 네네카의 스턴이 공격 판정보다 미세하게 빨라서 리마나 행속 상승으로 판정을 뒤틀지 않는 이상 맞추기 어렵다</li>
+				</ul>
+			</ul>
+			
+			<ul>
+				<li>클랜전 적성도 : 낮음</li>
+				<ul>
+					<li>TP 상승치가 높진 않아 사용하기 미묘</li>
+					<li>화력면에서 페코린느(여름)이나 미후유(여름)이 더 뛰어나므로 출전 가능성은 낮음</li>
+				</ul>
+			</ul>
+
+			<br></br>
+			<br></br>
+			
+			<h2><a name="13.1"></a>재능개화</h2>
+			
+			<h3><a name="13.1.1"></a>1. ★3 일러스트</h3>
+			<img src="../../Images/charPortraits/mimi_3.png" style="max-width:100%; height:auto;">
+			<br></br>
+			
+		<br></br>
+		<br></br>
+		
+			<h2><a name="14.1"></a>기타</h2>
+			
+			<h3><a name="14.1.1"></a>1. 생일 기념 일러스트</h3>
+			<img src="../../Images/birthday/mimi_birthday.jpg" style="max-width:100%; height:auto;">
+			
+		</div>
+
+		<div id="footer">
+		<p>※ 본 페이지는 HTML/CSS로 작성하였으며, 1600x900 해상도에 최적화되어 있습니다.<br>브라우저는 Google Chrome을 권장합니다.</p>
+		</div>
+
+		<a style="display:scroll; position:fixed; bottom:10px; right:10px;" href="#" title="맨 위로"><img src="../../Images/mv_img_cal_2.png"></a>
+
+
+</body>
+
+
+
+</html>

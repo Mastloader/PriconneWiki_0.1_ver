@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="../../Images/favicon_onigiri.png">
+	<link rel="stylesheet" type="text/css" href="../../css/style2.css">
+	<title> 쿠우카 | 프린세스 커넥트! Re:Dive 위키 </title>
+
+	<style type="text/css">
+	a:link { color: black; text-decoration: none;}
+	a:visited { color: black; text-decoration: none;}
+	a:hover { color:#0078d7; text-decoration: underline;}
+	</style>
+	
+</head>
+
+
+
+<body>
+	
+		<div id="container">
+		
+			<div id="sidebar">
+				<h1 id="toggle-bar" style="text-align:center">
+				☰ MENU
+				</h1>
+				
+				<ul class="mainMenu">
+					<ul>
+					<br>
+					<li><a href="index.html">Top</a></li>
+					</ul>
+					<br>
+					<h3>처음이신가요?</h3>
+						<ul>
+							<li><a href="../../Pages/intro.html">게임소개</a></li>
+							<li><a href="../../Pages/howtoplay.html">뉴비 지침서</a></li>
+							<li><a href="../../Pages/questions.html">자주 묻는 질문들</a></li>
+						</ul>
+					<br>
+					
+					<p class="text1">
+					<h3>시스템</h3>
+						<ul>
+							<li>상점</li>
+							<li>미션</li>
+								<ul>
+									<li>데일리</li>
+									<li>노멀</li>
+								</ul>
+							<li>길드하우스</li>
+						</ul>
+						<br>
+						
+					<p class="text1">
+					<h3>캐릭터</h3>
+						<ul>
+							<li><a href="../../Pages/charList.html">캐릭터 목록</a></li>
+							<li>캐릭터 배치 순서</li>
+							<li>캐릭터 포지션</li>
+								<ul>
+									<li>탱커</li>
+									<li>물리 딜러</li>
+									<li>마법 딜러</li>
+								</ul>
+
+							<li>스킬</li>
+								<ul>
+									<li>버프</li>
+									<li>디버프</li>
+									<li>상태 이상</li>
+								</ul>
+							<li>스테이터스에 대하여</li>
+							<li>계산식</li>
+							<li>메모리 피스</li>
+							<li>☆6 재능개화</li>
+						</ul>
+					<br>
+					
+					<p class="text1">
+					<h3>퀘스트</h3>
+						<ul>
+							<li>몬스터</li>
+							<li>메인 퀘스트</li>
+								<ul>
+									<li>NORMAL</li>
+									<li>HARD</li>
+									<li>VERY HARD</li>
+								</ul>
+							<li>던전</li>
+							<li>탐색</li>
+							<li>조사</li>
+								<ul>
+									<li>성적조사</li>
+									<li>신전조사</li>
+								</ul>
+						</ul>
+					<br>
+					
+					<h3>아레나</h3>
+						<ul>
+						<li>아레나에 대하여</li>
+						</ul>
+					<br>
+					
+					<h3>이벤트</h3>
+						<ul>
+							<li>이벤트</li>
+								<ul>
+									<li>루나의 탑</li>
+								</ul>
+							<li>클랜전</li>
+								<ul>
+									<li>추천 캐릭터</li>
+									<li>테크닉</li>
+								</ul>
+						</ul>
+					<br>
+										
+				</ul>
+			</div>
+			
+			<script>
+			
+			function toggleMenu()
+			{
+				let getMenu = document.querySelector(".mainMenu");
+				getMenu.classList.toggle("hamburger");
+				
+			}
+			
+			let getHamburger = document.querySelector("#toggle-bar");
+			getHamburger.addEventListener("click", toggleMenu);
+			
+			</script>
+
+
+	
+		<div id="contents">
+			
+			<h2>목차</h2>
+				<ul style="font-size:14px">
+					<li><a href="#1.1">프로필</a></li>
+					<li><a href="#2.1">개요</a></li>
+					<li><a href="#3.1">길드</a></li>
+					<br>
+					<li><a href="#4.1">장비 일람</a></li>
+						<ol>
+							<li><a href="#4.1.1">공통 장비</a></li>
+							<li><a href="#4.1.2">전용 장비</a></li>	
+								<ul>
+								<li>
+								플레저 초커
+								</li>
+								</ul>
+						</ol>
+					<br>
+					<li><a href="#5.1">유니온 버스트(UB)</a></li>
+						<ol>
+							<li><a href="#5.1.1">엑스터시 트립</a></li>
+						</ol>
+					<br>
+					<li><a href="#6.1">스킬</a></li>
+						<ol>
+							<li><a href="#6.1.1">노릴 거라면 쿠우카를!</a></li>
+							<li><a href="#6.1.2">격렬한 것도 환영이에요!</a></li>
+						</ol>
+					<br>
+					<li><a href="#7.1">EX스킬</a></li>
+						<ol>
+							<li><a href="#7.1.1">망상 프로텍션</a></li>
+							<li><a href="#7.1.2">망상 프로텍션+</a></li>
+						</ol>
+					<br>
+					<li><a href="#8.1">행동 패턴</a></li>	
+					<li><a href="#9.1">순서</a></li>
+					<li><a href="#10.1">스토리</a></li>					
+					<li><a href="#11.1">종합평가</a></li>
+					<li><a href="#12.1">운용과 편성</a></li>
+					<br>
+					<li><a href="#13.1">재능개화</a></li>
+						<ol>
+							<li><a href="#13.1.1">★3 일러스트</a></li>
+						</ol>
+					<li><a href="#14.1">기타</a></li>
+						<ol>
+							<li><a href="#14.1.1">생일 기념 일러스트</a></li>
+						</ol>
+					<br>
+				</ul>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="1.1"></a>캐릭터 프로필</h2>
+			<table style="border:2px solid">
+			
+				<tr>
+					<td style="background-color:#f55291" colspan="2">
+					<span style="color:#ffffff; font-size:30px; font-weight:bold;">
+					쿠우카
+					</span>
+					<br>
+					<span style="color:#ffffff; font-weight:bold;">
+					クウカ
+					</span>
+					</td>
+				</tr>
+				<tr style="border:2px solid">
+					<td colspan="2"><img src="../../Images/charPortraits/kuuka.png" style="max-width:100%; height:auto;"></td>
+				</tr>
+				
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					신장
+					</span>
+					</td>
+					<td>157cm</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					체중
+					</span>
+					</td>
+					<td>49kg</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					나이
+					</span>
+					</td>
+					<td>18세</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					생일
+					</span>
+					</td>
+					<td>11월 19일</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					혈액형
+					</span>
+					</td>
+					<td>AB형</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					종족
+					</span>
+					</td>
+					<td>휴먼</td>
+				</tr>
+				<tr>
+					<td style=" background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					길드
+					</span>
+					</td>
+					<td>바이스플뤼겔 랜드솔 지부</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					취미
+					</span>
+					</td>
+					<td>소설 읽기</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					CV
+					</span>
+					</td>
+					<td>나가츠마 쥬리</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					레어도
+					</span>
+					</td>
+					<td>★★☆☆☆</td>
+				</tr>
+			</table>
+		
+			<br>
+				<table style="max-width:50%; margin:auto; border:2px solid">
+					<tr style="border-bottom:2px solid">
+						<td style="background-color:#f55291; font-weight:bold;">
+						<span style="color:white">
+						메모리 피스 입수처
+						</span>
+						</td>
+						<td>
+						던전 코인
+						</td>
+					<tr>
+				</table>
+			</br>
+			
+			<h2><a name="2.1"></a>개요</h2>
+			주인공이 마물 토벌 의뢰를 받을 때 등장한 마조히스트. 매번 자신이 괴롭힘 당하는 망상을 하면서 침을 질질 흘리고 있다.
+			<br>
+			도무지 구제할 길 없는 변태라도 망상하지 않을 때는 남자 옆에 앉기만 해도 쉽게 긴장하는 순진한 소녀의 모습도 보여준다.
+			<br>
+			전투할 때나 망상할 때의 목소리가 너무 강렬해서 언제나 그런 목소리인 줄 알고 있는 사람들이 많은데, 막상 평범한 대화 이벤트에서 보여주는 목소리가 평범하게 귀여운 편이라 약간 깬다는 인상을 받기도.
+			
+			
+			<br></br>
+			<br></br>
+			<h2><a name="3.1"></a>길드</h2>
+			어린애 취급 당해서 의뢰를 받지 못하는 모니카가 결성한 길드의 초기 멤버.
+			<br>
+			일단 영입 당시에 모니카의 눈에는 무희처럼 보였다고 한다. 도발하는 모션을 보면 춤을 추긴 하는데...아무리 그래도 그렇지, 수영복 + 본디지 디자인의 의상을 입은 무희가 세상에 어디있겠는가.
+			</br>
+			<br>
+			<span style="font-weight:bold">전투 시 특별 대화 이벤트가 있는 캐릭터</span><br>
+			<img src="../../Images/charIcon/monica_Icon.png" style="max-width:100%; height:auto;">
+			<img src="../../Images/charIcon/ninon_Icon.png" style="max-width:100%; height:auto;">
+			<img src="../../Images/charIcon/yuki_Icon.png" style="max-width:100%; height:auto;">
+			<img src="../../Images/charIcon/ayumi_Icon.png" style="max-width:100%; height:auto;">
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="4.1"></a>장비 일람</h2>
+			<h3><a name="4.1.1"></a>1. 공통 장비</h3>
+			<details>
+				<summary>RANK1 ~ RANK9</summary>
+				<table style="border:2px solid">
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK1
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/165_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/40_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/110_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/61_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/23_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/23_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+									<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK2
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/39_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/164_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/77_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/60_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/23_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/23_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK3
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/163_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/39_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/75_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/58_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/22_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/22_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK4
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/191_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/37_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/37_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/20_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/21_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/21_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK5
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/161_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/35_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/73_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/50_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/20_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/20_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK6
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/159_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/16_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/71_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/50_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/73_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/18_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK7
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/200_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/69_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/186_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/16_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/16_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/18_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK8
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/247_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/200_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/226_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/186_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/225_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/16_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK9
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/279_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/247_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/266_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/226_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/269_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/225_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+				</table>
+			</details>
+			
+			<details>
+				<summary>RANK10 ~</summary>
+				<table style="border:2px solid">
+				
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK10
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/317_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/279_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/298_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/262_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/289_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/269_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK11
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/349_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/317_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/336_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/299_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/330_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/289_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK12
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/383_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/349_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/374_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/339_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/366_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/330_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK13
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/425_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/383_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/410_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/373_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/403_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/366_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK14
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/i_noimage.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/425_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/446_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/410_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/439_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/403_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+				
+				</table>
+			</details>
+			
+			<br></br>
+			<br></br>
+			
+			<h3><a name="4.1.2"></a>2. 전용 장비</h3>
+			
+			<table style="border:2px solid">
+					<tr>
+					<td rowspan="2" style="border:2px solid">
+					<img src="../../Images/exclusive/kuuka_ex.png">
+					</td>
+					<td colspan="3" style="background-color:#f55291;">
+					<span style="color:white; font-weight:bold;">
+					플레저 초커
+					</span>
+					</td>
+					</tr>
+					<tr>
+					<td colspan="3" style="border:2px solid">
+					쿠우카가 평소 착용하고 다니는 초커. 구속구를 겸하고 있다.
+					<br>
+					움직임을 자기 스스로 봉인함으로써 적의 눈길을 끌어들이고, 남들 모르게 열락을 탐낸다.
+					</td>
+					</tr>
+					
+					<tr>
+					<td style="background-color:#f55291; border-right:2px solid">
+					<span style="color:white">
+					강화 스킬
+					</span>
+					</td>
+					<td colspan="3" style="border-right:2px solid">
+					노릴 거라면 쿠우카를!+
+					</td>
+					</tr>
+
+					<tr>
+					<td style="background-color:#f55291; border-right:2px solid">
+					<span style="color:white">
+					강화 내용
+					</span>
+					</td>
+					<td colspan="3" style="border-right:2px solid">
+					적 전체를 도발하며, 자신의 물리 방어력을 <span style="color:rgb(200,35,35); font-weight:bold">(대)</span> 증가시킨다.
+					<br><span style="color:rgb(200,35,35); font-weight:bold">또한, 자신의 HP를 (중) 회복한다.</span>
+					</td>
+					</tr>
+					
+					
+					<tr style="border:2px solid;">
+						<td style="background-color:#f55291;">
+						<span style="color:white">
+						레벨
+						</span>
+						</td>
+						<td style="background-color:#f55291;">
+						<span style="color:white">
+						물리 방어력
+						</span>
+						</td>
+						<td style="background-color:#f55291;">
+						<span style="color:white">
+						마법 방어력
+						</span>
+						</td>
+						<td style="background-color:#f55291; border-right:2px solid">
+						<span style="color:white">
+						회복력 상승
+						</span>
+						</td>
+					</tr>
+					
+					
+					<tr>
+						<td>
+						Lv1
+						</td>
+						<td>
+						7
+						</td>
+						<td>
+						9
+						</td>
+						<td>
+						12
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv30
+						</td>
+						<td>
+						18
+						</td>
+						<td>
+						23
+						</td>
+						<td>
+						30
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv50
+						</td>
+						<td>
+						25
+						</td>
+						<td>
+						32
+						</td>
+						<td>
+						42
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv70
+						</td>
+						<td>
+						32
+						</td>
+						<td>
+						41
+						</td>
+						<td>
+						54
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv90
+						</td>
+						<td>
+						39
+						</td>
+						<td>
+						50
+						</td>
+						<td>
+						66
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv110
+						</td>
+						<td>
+						46
+						</td>
+						<td>
+						59
+						</td>
+						<td>
+						78
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv130
+						</td>
+						<td>
+						53
+						</td>
+						<td>
+						68
+						</td>
+						<td>
+						90
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv140
+						</td>
+						<td>
+						56
+						</td>
+						<td>
+						72
+						</td>
+						<td>
+						96
+						</td>
+					</tr>
+			</table>
+								
+			<br></br>
+			<br></br>
+			
+			<h2><a name="5.1"></a>유니온 버스트(UB)</h2>
+			<h3><a name="5.1.1"></a>1. 엑스터시 트립</h3>
+			<table style="border:2px solid">
+				<tr>
+					<td colspan="2">
+					<img src="../../Images/unionburst/kuuka.gif" style="max-width:100%; height:auto;">
+					</td>
+				</tr>
+				
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 설명
+					</span>
+					</td>
+					
+					<td>
+					자신에게 마법 흡수 배리어를 전개하며, 자신의 HP를 (중) 회복한다.
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과
+					</span>
+					</td>
+					
+					<td>
+					자신에게 마법 흡수 배리어 전개
+					<br>
+					자신의 HP (중) 회복
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="border:2px solid; text-align:left">
+					UB 발동 전에 행동 불능에 빠질 때도 적지 않게 있지만, 일단 사용할 수만 있다면 마법 캐릭터 상대로 오랫동안 버틸 수 있다.
+					<br>
+					협동전에서는 선두에 위치한 캐릭터에게만 마법 흡수 배리어를 전개한다.
+					</td>
+				</tr>
+
+			</table>
+
+			<br></br>
+			<br></br>
+			
+			<h2><a name="6.1"></a>스킬</h2>
+			<h3><a name="6.1.1"></a>1. 노릴 거라면 쿠우카를!</h3>
+				<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					사용 조건
+					</span>
+					</td>
+					
+					<td>
+					RANK2 이상
+					</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 설명
+					</span>
+					</td>
+					
+					<td>
+					【도발】적 전체를 도발하고, 자신의 물리 방어력을 (소) 증가시킨다.
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과 (전장 미착용)
+					</span>
+					</td>
+					
+					<td>
+					적 전체 도발
+					<br>
+					자신의 물리 방어력 (대) 증가
+					</td>
+				</tr>
+				
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과 (전장 착용)
+					</span>
+					</td>
+					
+					<td>
+					전 전체 도발
+					<br>
+					자신의 물리 방어력 <span style="color:rgb(200,35,35); font-weight:bold">(대)</span> 증가
+					<br>
+					<span style="color:rgb(200,35,35); font-weight:bold">
+					자신의 HP (중) 회복
+					</span>
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="border:2px solid; text-align:left">
+					쿠우카의 메인이라고도 부를 수 있는 도발 스킬. 전투 시작 시에 사용하여 모든 공격을 자신에게 향하도록 하여, 자신이 답도 없는 M이라는 걸 어필하는 스킬이다.
+					<br></br>
+					이 스킬 덕분에 맵을 고려하지 않고 쿠우카를 사용하면 혼자서 얻어맞다가 행동불능에 빠진다. 물리 방어력 상승 버프? 이게 더해져도 겨우 다른 탱커들 꽁무니 쫓는 수준. 그러나 HARD 8-2 같은 마법계열 적들이 대거 포진한 퀘스트나 아레나에선 탱킹+마방의 포지션으로 중/후열 캐릭터를 확실하게 지켜준다.
+					<br><br>
+					도발은 스킬을 첫번째 행동 패턴이라고 했을 때, 세번째 행동 패턴이 종료될 때쯤 해제된다. 속도 상승 버프가 없을 경우엔 첫~두번째 행동 패턴이 진행되는 시간 동안 도발 효과 없음. 콧코로의 버프를 받았을 경우엔 1회째 일반 공격엔 도발이 사라지지 않으나, 2회째엔 사라진다.
+					<br></br>
+					물리 방어력 상승 계산식은 (스킬Lv+1)×1.2
+					</td>
+				</tr>
+
+			</table>
+
+			
+
+			<br></br>
+
+			<h3><a name="6.1.2"></a>2. 격렬한 것도 환영이에요!</h3>
+			<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					사용 조건
+					</span>
+					</td>
+					
+					<td>
+					RANK4 이상
+					</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 설명
+					</span>
+					</td>
+					
+					<td>
+					자신의 마법 방어력을 (중) 증가시킨다.
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과
+					</span>
+					</td>
+					
+					<td>
+					자신의 마법 방어력 (중) 증가
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="border:2px solid; text-align:left">
+					마법 공격력이 가장 높은 적의 TP를 깎고 그 수치만큼 자신의 TP를 회복한다.
+					<br>
+					상대방의 UB 발동을 늦추면서 자신은 가속한다는, 게임 내에서 보기 드문 컨셉의 스킬.
+					<br>
+					보스전에서도 TP를 깎아 적의 UB 발동을 늦출 수 있다. 특히 많은 시간이 소요되는 클랜전에서 UB횟수를 줄일 수 있는 보스도 있다 보니 공방일체 일거양득의 스킬.
+					</td>
+				</tr>
+
+			</table>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="7.1"></a>EX스킬</h2>
+			<h3><a name="7.1.1"></a>1. 망상 프로텍션</h3>
+				<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					사용 조건
+					</span>
+					</td>
+					
+					<td>
+					RANK7 이상
+					</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 설명
+					</span>
+					</td>
+					
+					<td>
+					전투 시작 시 자신의 마법 방어력을 (중) 증가시킨다.
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과
+					</span>
+					</td>
+					
+					<td>
+					자신의 마법 방어력 (중) 증가
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="border:2px solid; text-align:left">
+					☆2 시점에서 ☆3 캐릭터를 압도하는 마방 수치. 여기에 스킬과 UB가 겹치면 마딜 상대 한정 탱커로는 천적이다.
+					</td>
+				</tr>
+
+			</table>
+			
+			<br>
+			
+			<h3><a name="7.1.2"></a>2. 망상 프로텍션+</h3>
+			<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					사용 조건
+					</span>
+					</td>
+					
+					<td>
+					RANK7 & ☆5 이상
+					</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 설명
+					</span>
+					</td>
+					
+					<td>
+					전투 시작 시 자신의 마법 방어력을 (대) 증가시킨다.
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과
+					</span>
+					</td>
+					
+					<td>
+					자신의 마법 방어력 (대) 증가
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="border:2px solid; text-align:left">
+					상승폭이 더욱 커지기 때문에 어지간한 마법공격으론 뚫기 힘들다.
+					<br>
+					</td>
+				</tr>
+
+			</table>
+											
+			<br></br>
+			<br></br>
+			
+			<h2><a name="8.1"></a>행동 패턴</h2>
+				<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291">
+					<span style="color:white">
+					시작
+					</span>
+					</td>
+
+				</tr>
+				
+				<tr>
+				<td>
+					<img src="../../Images/patterns/skill_7_1.png" style="max-width:50px; height:auto;">
+					→
+					<img src="../../Images/patterns/skill_4_2.png" style="max-width:50px; height:auto;">
+				</td>
+				</tr>
+				
+				<tr>
+					<td style="background-color:#f55291">
+					<span style="color:white">
+					로테이션
+					</span>
+					</td>
+				</tr>
+				
+				<tr>
+				<td>
+				<img src="../../Images/patterns/i_attacker.png">
+				→
+				<img src="../../Images/patterns/skill_7_1.png" style="max-width:50px; height:auto;">
+				→
+				<img src="../../Images/patterns/skill_4_2.png" style="max-width:50px; height:auto;">
+				→
+				<img src="../../Images/patterns/i_attacker.png">
+				→
+				<img src="../../Images/patterns/i_attacker.png">
+				→
+				<img src="../../Images/patterns/skill_7_1.png" style="max-width:50px; height:auto;">
+				→
+				<img src="../../Images/patterns/skill_4_2.png" style="max-width:50px; height:auto;">
+				</td>
+				</tr>
+
+			</table>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="9.1"></a>순서</h2>
+			<table style="border:2px solid">
+				<tr>
+					<td colspan="7" style="background-color:#f55291;">
+					<span style="color:white">
+					전열
+					</span>
+					</td>
+				</tr>
+	
+
+				<tr>
+					<td style="background-color:rgb(230,230,230);">
+					뒤
+					</td>
+					<td>
+					<img src="../../Images/charIcon/kuuka_ooedo_Icon.png" style="max-width:80%; height:auto;">
+					</td>
+					<td>
+					<img src="../../Images/charIcon/jun_Icon.png" style="max-width:80%; height:auto;">
+					</td>
+					<td>
+					<img src="../../Images/charIcon/kuuka_Icon.png" style="max-width:100%; height:auto;">
+					</td>
+					<td>
+					<img src="../../Images/charIcon/miyako_Icon.png" style="max-width:80%; height:auto;">
+					</td>
+					<td>
+					<img src="../../Images/charIcon/rima_Icon.png" style="max-width:80%; height:auto;">
+					</td>
+					<td style="background-color:rgb(230,230,230);">
+					앞
+					</td>
+				</tr>
+				
+			</table>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="10.1"></a>스토리</h2>
+			</br>
+			<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					화수
+					</span>
+					</td>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					제목
+					</span>
+					</td>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					능력치 보너스
+					</span>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제1화
+					</td>
+					<td>
+					조우! 망상 폭발 소녀
+					</td>
+					<td>
+					-
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제2화
+					</td>
+					<td>
+					일단 함께 하는 것부터
+					</td>
+					<td>
+					마법 방어력+3
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제3화
+					</td>
+					<td>
+					쿠우카 비밀의 화원
+					</td>
+					<td>
+					마법 방어력+3
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제4화
+					</td>
+					<td>
+					쿠우카의 데뷔작?!
+					</td>
+					<td>
+					마법 방어력+6
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제5화
+					</td>
+					<td>
+					대중의 눈에 드러나다
+					</td>
+					<td>
+					마법 방어력+8
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제6화
+					</td>
+					<td>
+					없으면 안 돼요…
+					</td>
+					<td>
+					마법 방어력+8 / 물리 방어력+4
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제7화
+					</td>
+					<td>
+					쿠우카 변태의 때
+					</td>
+					<td>
+					마법 방어력+8 / 물리 방어력+4
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제8화
+					</td>
+					<td>
+					쿠우카 대회전
+					</td>
+					<td>
+					마법 방어력+12 / 물리 방어력+6 / 회피+3
+					</td>
+				</tr>
+				
+			</table>
+			<br></br>
+			<br></br>
+			
+			<h2><a name="11.1"></a>종합평가</h2>
+
+
+			<br></br>
+			<br></br>
+			
+			<h2><a name="12.1"></a>운용과 편성</h2>
+
+			<br></br>
+			<br></br>
+			
+			<h2><a name="13.1"></a>재능개화</h2>
+			<h3><a name="13.1.1"></a>1. ☆3 일러스트</h3>
+			<img src="../../Images/charPortraits/kuuka_3.png" style="max-width:100%; height:auto;">
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="14.1"></a>기타</h2>
+			<h3><a name="14.1.1"></a>1. 생일 기념 일러스트</h3>
+			<img src="../../Images/birthday/kuuka_birthday.jpg" style="max-width:100%; height:auto;">
+			
+		</div>
+
+		<div id="footer">
+		<p>※ 본 페이지는 HTML/CSS로 작성하였으며, 1600x900 해상도에 최적화되어 있습니다.<br>브라우저는 Google Chrome을 권장합니다.</p>
+		</div>
+
+		<a style="display:scroll; position:fixed; bottom:10px; right:10px;" href="#" title="맨 위로"><img src="../../Images/mv_img_cal_2.png"></a>
+
+</body>
+
+
+
+</html>

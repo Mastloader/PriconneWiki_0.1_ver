@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="../Images/favicon_onigiri.png">
+	<link rel="stylesheet" type="text/css" href="../css/style2.css">
+	<title> 프린세스 커넥트! Re:Dive 위키 </title>
+
+	<style type="text/css">
+	a:link { color: black; text-decoration: none;}
+	a:visited { color: black; text-decoration: none;}
+	a:hover { color:#0078d7; text-decoration: underline;}
+	</style>
+
+
+</head>
+
+
+
+<body>
+	
+	
+	<div id="container">
+	
+			<div id="sidebar">
+				<h1 id="toggle-bar" style="text-align:center">
+				☰ MENU
+				</h1>
+				
+				<ul class="mainMenu">
+					<ul>
+					<br>
+					<li><a href="index.html">Top</a></li>
+					</ul>
+					<br>
+					<h3>처음이신가요?</h3>
+						<ul>
+							<li><a href="Pages/intro.html">게임소개</a></li>
+							<li><a href="Pages/howtoplay.html">뉴비 지침서</a></li>
+							<li><a href="Pages/questions.html">자주 묻는 질문들</a></li>
+						</ul>
+					<br>
+					
+					<p class="text1">
+					<h3>시스템</h3>
+						<ul>
+							<li>상점</li>
+							<li>미션</li>
+								<ul>
+									<li>데일리</li>
+									<li>노멀</li>
+								</ul>
+							<li>길드하우스</li>
+						</ul>
+						<br>
+						
+					<p class="text1">
+					<h3>캐릭터</h3>
+						<ul>
+							<li><a href="Pages/charList.html">캐릭터 목록</a></li>
+							<li>캐릭터 배치 순서</li>
+							<li>캐릭터 포지션</li>
+								<ul>
+									<li>탱커</li>
+									<li>물리 딜러</li>
+									<li>마법 딜러</li>
+								</ul>
+
+							<li>스킬</li>
+								<ul>
+									<li>버프</li>
+									<li>디버프</li>
+									<li>상태 이상</li>
+								</ul>
+							<li>스테이터스에 대하여</li>
+							<li>계산식</li>
+							<li>메모리 피스</li>
+							<li>☆6 재능개화</li>
+						</ul>
+					<br>
+					
+					<p class="text1">
+					<h3>퀘스트</h3>
+						<ul>
+							<li>몬스터</li>
+							<li>메인 퀘스트</li>
+								<ul>
+									<li>NORMAL</li>
+									<li>HARD</li>
+									<li>VERY HARD</li>
+								</ul>
+							<li>던전</li>
+							<li>탐색</li>
+							<li>조사</li>
+								<ul>
+									<li>성적조사</li>
+									<li>신전조사</li>
+								</ul>
+						</ul>
+					<br>
+					
+					<h3>아레나</h3>
+						<ul>
+						<li>아레나에 대하여</li>
+						</ul>
+					<br>
+					
+					<h3>이벤트</h3>
+						<ul>
+							<li>이벤트</li>
+								<ul>
+									<li>루나의 탑</li>
+								</ul>
+							<li>클랜전</li>
+								<ul>
+									<li>추천 캐릭터</li>
+									<li>테크닉</li>
+								</ul>
+						</ul>
+					<br>
+										
+				</ul>
+			</div>
+			
+			<script>
+			
+			function toggleMenu()
+			{
+				let getMenu = document.querySelector(".mainMenu");
+				getMenu.classList.toggle("hamburger");
+				
+			}
+			
+			let getHamburger = document.querySelector("#toggle-bar");
+			getHamburger.addEventListener("click", toggleMenu);
+			
+			</script>
+	
+		<div id="contents">
+			
+		<h2>캐릭터 목록</h2>
+		프린세스 커넥트! Re:Dive 에 등장하는 캐릭터 목록입니다.
+		<br></br>
+		갱신일자 : 2019년 11월 1일
+		<br>
+		<br>
+		<br>
+	
+
+		<details>
+			<summary>미식전</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/peko_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/kokko_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/cal_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td><a href="../Pages/CharInfo/peko_Info.html">페코린느</a></td>
+			<td><a href="../Pages/CharInfo/kokkoro_Info.html">콧코로</a></td>
+			<td><a href="../Pages/CharInfo/cal_Info.html">캬루</a></td>
+			</tr>
+			
+			<tr>
+			<td><img src="../Images/charIcon/peko_summer_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/kokko_summer_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/cal_summer_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td><a href="../Pages/CharInfo/peko_summer_Info.html">페코린느(여름)</a></td>
+			<td>콧코로(여름)</a></td>
+			<td>캬루(여름)</td>
+			</tr>
+			
+			</table>
+		</details>
+		
+		<br>
+		
+		<details>
+			<summary>트윙클 위시</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/hiyori_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/yui_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/rei_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td><a href="../Pages/CharInfo/hiyori_Info.html">히요리</a></td>
+			<td><a href="../Pages/CharInfo/yui_Info.html">유이</a></td>
+			<td><a href="../Pages/CharInfo/rei_Info.html">레이</a></td>
+			</tr>
+					
+			<tr>
+			<td><img src="../Images/charIcon/hiyori_newyear_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/yui_newyear_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/rei_newyear_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>히요리(뉴이어)</a></td>
+			<td>유이(뉴이어)</a></td>
+			<td>레이(뉴이어)</td>
+			</tr>
+			
+
+			
+			</table>
+		</details>
+		
+		<br>
+		
+		<details>
+			<summary>라비린스</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/rabirisuta_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/shizuru_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/rino_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>라비리스타</td>
+			<td><a href="../Pages/CharInfo/shizuru_Info.html">시즈루</a></td>
+			<td><a href="../Pages/CharInfo/rino_Info.html">리노</a></td>
+			</tr>
+			
+			<tr>
+			<td></td>
+			<td><img src="../Images/charIcon/shizuru_valentine_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td></td>
+			</tr>
+			
+			<tr>
+			<td></td>
+			<td>시즈루(발렌타인)</a></td>
+			<td></td>
+			</tr>
+			
+			</table>
+		</details>
+
+		<br>
+
+		<details>
+			<summary>카르미나</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/nozomi_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/chika_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/tsumugi_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td><a href="../Pages/CharInfo/nozomi_Info.html">노조미</a></td>
+			<td><a href="../Pages/CharInfo/chika_Info.html">치카</a></td>
+			<td><a href="../Pages/CharInfo/tsumugi_Info.html">츠무기</a></td>
+			</tr>
+			
+			<tr>
+			<td></td>
+			<td><img src="../Images/charIcon/chika_chrismas_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td></td>
+			</tr>
+			
+			<tr>
+			<td></td>
+			<td>치카(크리스마스)</a></td>
+			<td></td>
+			</tr>
+			</table>
+		</details>
+		
+		<br>
+		
+		<details>
+			<summary>리틀 리리컬</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/mimi_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/misogi_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/kyouka_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td><a href="../Pages/CharInfo/mimi_Info.html">미미</a></td>
+			<td><a href="../Pages/CharInfo/misogi_Info.html">미소기</a></td>
+			<td><a href="../Pages/CharInfo/kyouka_Info.html">쿄우카</a></td>
+			</tr>
+			
+			<tr>
+			<td><img src="../Images/charIcon/mimi_holloween_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/misogi_holloween_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/kyouka_holloween_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>미미(할로윈)</a></td>
+			<td>미소기(할로윈)</a></td>
+			<td>쿄우카(할로윈)</a></td>
+			</tr>
+			
+			</table>
+		</details>
+		
+		<br>
+		
+		<details>
+			<summary>포레스티에</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/misato_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/aoi_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/hatsune_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>미사토</td>
+			<td>아오이</td>
+			<td>하츠네</td>
+			</tr>
+			
+			<tr>
+			<td></td>
+			<td><img src="../Images/charIcon/aoi_school_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td></td>
+			</tr>
+			
+			<tr>
+			<td></td>
+			<td>아오이(편입생)</td>
+			<td></td>
+			</tr>
+			
+			</table>
+		</details>
+		
+		<br>
+		
+		<details>
+			<summary>악마왕국군(디아볼로스)</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/iriya_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/yori_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/akari_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/shinobu_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/miyako_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>이리야</td>
+			<td>요리</td>
+			<td>아카리</td>
+			<td>시노부</td>
+			<td>미야코</td>
+			</tr>
+			
+			<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><img src="../Images/charIcon/shinobu_holloween_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/miyako_holloween_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>시노부(할로윈)</td>
+			<td>미야코(할로윈)</td>
+			</tr>
+
+			
+			</table>
+		</details>
+		
+		<br>
+		
+		<details>
+			<summary>왕궁 기사단(나이트메어)</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/jun_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/chris_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/tomo_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/matsuri_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>쥰</td>
+			<td>크리스티나</td>
+			<td>토모</td>
+			<td>마츠리</td>
+			</tr>
+			
+			</table>
+		</details>
+		
+		<br>
+
+		<details>
+			<summary>사렌디아 구호원</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/saren_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/suzume_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/ayane_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/kurumi_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>사렌</td>
+			<td>스즈메</td>
+			<td>아야네</td>
+			<td>쿠루미</td>
+			</tr>
+			
+			<tr>
+			<td><img src="../Images/charIcon/saren_summer_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/suzume_summer_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/ayane_chrismas_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/kurumi_chrismas_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>사렌(여름)</td>
+			<td>스즈메(여름)</td>
+			<td>아야네(크리스마스)</td>
+			<td>쿠루미(크리스마스)</td>
+			</tr>
+
+			
+			</table>
+		</details>
+		
+		<br>
+		
+		<details>
+			<summary>자경단(카온)</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/maho_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/makoto_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/kaori_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/kasumi_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>마호</td>
+			<td>마코토</td>
+			<td>카오리</td>
+			<td>카스미</td>
+			</tr>
+			
+			<tr>
+			<td><img src="../Images/charIcon/maho_summer_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/makoto_summer_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/kaori_summer_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td></td>
+			</tr>
+			
+			<tr>
+			<td>마호(여름)</td>
+			<td>마코토(여름)</td>
+			<td>카오리(여름)</td>
+			<td></td>
+			</tr>
+
+			
+			</table>
+		</details>
+		
+		<br>
+		
+		<details>
+			<summary>목장(엘리자베스 파크)</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/mahiru_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/rima_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/shiori_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/rin_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>마히루</td>
+			<td>리마</td>
+			<td>시오리</td>
+			<td>린</td>
+			</tr>
+			
+			</table>
+		</details>
+		
+		<br>
+		
+		<details>
+			<summary>메르쿠리우스 재단</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/akino_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/mihuyu_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/yukari_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/tamaki_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td><a href="../Pages/CharInfo/akino_Info.html">아키노</td>
+			<td>미후유</td>
+			<td>유카리</td>
+			<td><a href="../Pages/CharInfo/tamaki_Info.html">타마키</a></td>
+			</tr>
+			
+			<tr>
+			<td></td>
+			<td><img src="../Images/charIcon/mihuyu_summer_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td></td>
+			<td><img src="../Images/charIcon/tamaki_summer_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td></td>
+			<td>미후유(여름)</td>
+			<td></td>
+			<td>타마키(여름)</td>
+			</tr>
+
+			
+			</table>
+		</details>
+		
+		<br>
+		
+		<details>
+			<summary>트와일라이트 캐러밴</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/ruka_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/mitsuki_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/eriko_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/nanaka_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/anna_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>루카</td>
+			<td>미츠키</a></td>
+			<td>에리코</a></td>
+			<td>나나카</a></td>
+			<td>안나</a></td>
+			</tr>
+			
+			<tr>
+			<td></td>
+			<td></td>
+			<td><img src="../Images/charIcon/eriko_valentine_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td></td>
+			<td></td>
+			</tr>
+			
+			<tr>
+			<td></td>
+			<td></a></td>
+			<td>에리코(발렌타인)</a></td>
+			<td></a></td>
+			<td></a></td>
+			</tr>
+
+			
+			</table>
+		</details>
+
+		<br>
+		
+		<details>
+			<summary>루센트 학원</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/io_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/misaki_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/suzuna_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>이오</td>
+			<td>미사키</a></td>
+			<td>스즈나</a></td>
+			</tr>
+			
+			<tr>
+			<td></td>
+			<td><img src="../Images/charIcon/misaki_holloween_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/suzuna_summer_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td></td>
+			<td>미사키(할로윈)</a></td>
+			<td>스즈나(여름)</a></td>
+			</tr>
+
+			
+			</table>
+		</details>
+
+		<br>
+		
+		<details>
+			<summary>바이스플뤼겔 랜드솔 지부</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/monica_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/yuki_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/ninon_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/kuuka_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/ayumi_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>모니카</td>
+			<td>유키</td>
+			<td>니논</td>
+			<td><a href="../Pages/CharInfo/kuuka_Info.html">쿠우카</a></td>
+			<td>아유미</td>
+			</tr>
+			
+			<tr>
+			<td></td>
+			<td></td>
+			<td><img src="../Images/charIcon/ninon_ooedo_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/kuuka_ooedo_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td></td>
+			</tr>
+			
+			<tr>
+			<td></td>
+			<td></td>
+			<td>니논(오에도)</td>
+			<td>쿠우카(오에도)</td>
+			<td></td>
+			</tr>
+			
+			</table>
+		</details>
+		
+		<br>
+		
+		<details>
+			<summary>성 테레사 여학원 (사이좋은 친구 부)</summary>
+			<table>
+			
+			<tr>
+			<td>nothing</td>
+			<td>nothing</td>
+			<td><img src="../Images/charIcon/chloe_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>유니</td>
+			<td>치엘</td>
+			<td>클로에</td>
+			</tr>
+			
+			</table>
+		</details>
+		
+		<br>
+		
+		<details>
+			<summary>[콜라보레이션] Cygames 자사 게임</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/jeeta_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/arisa_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/runa_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>지타(그랑블루 판타지)</td>
+			<td>아리사(섀도우버스)</td>
+			<td>루나(섀도우버스)</td>
+			</tr>
+			
+			</table>
+		</details>
+		
+		<br>
+		
+		<details>
+			<summary>[콜라보레이션] 마나리아 프렌즈</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/anne_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/grea_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/lou_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>앤</td>
+			<td>글레어</td>
+			<td>루</td>
+			</tr>
+			
+			</table>
+		</details>
+		<br>
+		
+		<details>
+			<summary>[콜라보레이션] Re: 제로부터 시작하는 이세계 생활</summary>
+			<table>
+			
+			<tr>
+			<td><img src="../Images/charIcon/rem_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/ram_Icon.png" style="max-width:100%; height:auto;"></td>
+			<td><img src="../Images/charIcon/emilia_Icon.png" style="max-width:100%; height:auto;"></td>
+			</tr>
+			
+			<tr>
+			<td>렘</td>
+			<td>람</td>
+			<td>에밀리아</td>
+			</tr>
+			
+			</table>
+		</details>
+
+		
+	</div>
+		
+</body>
+
+
+
+</html>

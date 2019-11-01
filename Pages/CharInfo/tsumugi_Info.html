@@ -1,0 +1,1613 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="../../Images/favicon_onigiri.png">
+	<link rel="stylesheet" type="text/css" href="../../css/style2.css">
+	<title> 츠무기 | 프린세스 커넥트! Re:Dive 위키 </title>
+	
+	<style type="text/css">
+	a:link { color: black; text-decoration: none;}
+	a:visited { color: black; text-decoration: none;}
+	a:hover { color:#0078d7; text-decoration: underline;}
+	</style>
+
+</head>
+
+
+
+<body>
+
+	
+		<div id="container">
+		
+			<div id="sidebar">
+				<h1 id="toggle-bar" style="text-align:center">
+				☰ MENU
+				</h1>
+				
+				<ul class="mainMenu">
+					<ul>
+					<br>
+					<li><a href="index.html">Top</a></li>
+					</ul>
+					<br>
+					<h3>처음이신가요?</h3>
+						<ul>
+							<li><a href="../../Pages/intro.html">게임소개</a></li>
+							<li><a href="../../Pages/howtoplay.html">뉴비 지침서</a></li>
+							<li><a href="../../Pages/questions.html">자주 묻는 질문들</a></li>
+						</ul>
+					<br>
+					
+					<p class="text1">
+					<h3>시스템</h3>
+						<ul>
+							<li>상점</li>
+							<li>미션</li>
+								<ul>
+									<li>데일리</li>
+									<li>노멀</li>
+								</ul>
+							<li>길드하우스</li>
+						</ul>
+						<br>
+						
+					<p class="text1">
+					<h3>캐릭터</h3>
+						<ul>
+							<li><a href="../../Pages/charList.html">캐릭터 목록</a></li>
+							<li>캐릭터 배치 순서</li>
+							<li>캐릭터 포지션</li>
+								<ul>
+									<li>탱커</li>
+									<li>물리 딜러</li>
+									<li>마법 딜러</li>
+								</ul>
+
+							<li>스킬</li>
+								<ul>
+									<li>버프</li>
+									<li>디버프</li>
+									<li>상태 이상</li>
+								</ul>
+							<li>스테이터스에 대하여</li>
+							<li>계산식</li>
+							<li>메모리 피스</li>
+							<li>☆6 재능개화</li>
+						</ul>
+					<br>
+					
+					<p class="text1">
+					<h3>퀘스트</h3>
+						<ul>
+							<li>몬스터</li>
+							<li>메인 퀘스트</li>
+								<ul>
+									<li>NORMAL</li>
+									<li>HARD</li>
+									<li>VERY HARD</li>
+								</ul>
+							<li>던전</li>
+							<li>탐색</li>
+							<li>조사</li>
+								<ul>
+									<li>성적조사</li>
+									<li>신전조사</li>
+								</ul>
+						</ul>
+					<br>
+					
+					<h3>아레나</h3>
+						<ul>
+						<li>아레나에 대하여</li>
+						</ul>
+					<br>
+					
+					<h3>이벤트</h3>
+						<ul>
+							<li>이벤트</li>
+								<ul>
+									<li>루나의 탑</li>
+								</ul>
+							<li>클랜전</li>
+								<ul>
+									<li>추천 캐릭터</li>
+									<li>테크닉</li>
+								</ul>
+						</ul>
+					<br>
+										
+				</ul>
+			</div>
+			
+			<script>
+			
+			function toggleMenu()
+			{
+				let getMenu = document.querySelector(".mainMenu");
+				getMenu.classList.toggle("hamburger");
+				
+			}
+			
+			let getHamburger = document.querySelector("#toggle-bar");
+			getHamburger.addEventListener("click", toggleMenu);
+			
+			</script>
+
+
+	
+		<div id="contents">
+			
+			<h2>목차</h2>
+				<ul style="font-size:14px">
+					<li><a href="#1.1">프로필</a></li>
+					<li><a href="#2.1">개요</a></li>
+					<li><a href="#3.1">길드</a></li>
+					<br>
+					<li><a href="#4.1">장비 일람</a></li>
+						<ol>
+							<li><a href="#4.1.1">공통 장비</a></li>
+							<li><a href="#4.1.2">전용 장비</a></li>	
+								<ul>
+								<li>
+								하이 꾸뛰리에르 벨트
+								</li>
+								</ul>
+						</ol>
+					<br>
+					<li><a href="#5.1">유니온 버스트(UB)</a></li>
+						<ol>
+							<li><a href="#5.1.1">페이탈리티 바인드</a></li>
+						</ol>
+					<br>
+					<li><a href="#6.1">스킬</a></li>
+						<ol>
+							<li><a href="#6.1.1">캡처 스트링</a></li>
+							<li><a href="#6.1.2">스파이럴 얀</a></li>
+						</ol>
+					<br>
+					<li><a href="#7.1">EX스킬</a></li>
+						<ol>
+							<li><a href="#7.1.1">테일러 거츠</a></li>
+							<li><a href="#7.1.2">테일러 거츠+</a></li>
+						</ol>
+					<br>
+					<li><a href="#8.1">행동 패턴</a></li>	
+					<li><a href="#9.1">순서</a></li>
+					<li><a href="#10.1">스토리</a></li>					
+					<li><a href="#11.1">종합평가</a></li>
+					<li><a href="#12.1">운용과 편성</a></li>
+					<br>
+					<li><a href="#13.1">재능개화</a></li>
+						<ol>
+							<li><a href="#13.1.1">★3 일러스트</a></li>
+						</ol>
+					<li><a href="#14.1">기타</a></li>
+						<ol>
+							<li><a href="#14.1.1">생일 기념 일러스트</a></li>
+						</ol>
+					<br>
+				</ul>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="1.1"></a>캐릭터 프로필</h2>
+			
+			<table style="border:2px solid">
+			
+				<tr>
+					<td style="background-color:#f55291" colspan="2">
+					<span style="color:#ffffff; font-size:30px; font-weight:bold;">
+					츠무기
+					</span>
+					<br>
+					<span style="color:#ffffff; font-weight:bold;">
+					ツムギ
+					</span>
+					</td>
+				</tr>
+				<tr style="border:2px solid">
+					<td colspan="2"><img src="../../Images/charPortraits/tsumugi.png" style="max-width:100%; height:auto;"></td>
+				</tr>
+				
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					신장
+					</span>
+					</td>
+					<td>153cm</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					체중
+					</span>
+					</td>
+					<td>45kg</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					나이
+					</span>
+					</td>
+					<td>14세</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					생일
+					</span>
+					</td>
+					<td>9월 7일</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					혈액형
+					</span>
+					</td>
+					<td>AB형</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					종족
+					</span>
+					</td>
+					<td>휴먼</td>
+				</tr>
+				<tr>
+					<td style=" background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					길드
+					</span>
+					</td>
+					<td>카르미나</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					취미
+					</span>
+					</td>
+					<td>바느질</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					CV
+					</span>
+					</td>
+					<td>키도 이부키</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291; font-weight:bold;">
+					<span style="color:white">
+					레어도
+					</span>
+					</td>
+					<td>★★☆☆☆</td>
+				</tr>
+			</table>
+		
+			<br>
+				<table style="max-width:50%; margin:auto; border:2px solid">
+					<tr style="border-bottom:2px solid">
+						<td style="background-color:#f55291; font-weight:bold;">
+						<span style="color:white">
+						메모리 피스 입수처
+						</span>
+						</td>
+						<td>
+						프린세스 아레나 코인
+						</td>
+					<tr>
+				</table>
+			</br>
+			
+			<h2><a name="2.1"></a>개요</h2>
+			
+			랜드솔에서 옷가게를 운영하는 14세 소녀 재단사. 눈대중으로 본 것만으로 상대방의 쓰리 사이즈를 맞추는, 여자 여럿 울릴 법한 무서운 능력을 가지고 있다.
+			<br></br>
+			아이돌 길드 【카르미나】의 뒤에서 의상 제작과 경영을 담당하고 있다.
+			<br>
+			자신의 의상 제작에 대한 신념이 강하여 어떻게 해야 옷맵시를 잘 살릴 수 있을지 매번 노조미와 치카에게 직접 지도하고 있다. 한편, 댄스나 보컬을 비롯한 아이돌 활동은 완전 초보. 이것을 내심 신경쓰고 있던 건지 다른 멤버들 몰래 레슨을 받고 있다.
+			<br></br>
+			레이의 팬을 자청하고 있으며, 레이랑 친하게 지내는 주인공을 별로 좋아하지 않아 말에 살짝 가시가 돋쳐 있다. 하지만, 레이가 연관되어 있지 않으면 주인공을 대하는 태도는 여전히 조금 비뚤어진 시선이나, 여기저기 신경써주는 걸 보면 그래도 본성은 착한 아이.
+			<br></br>
+			14세의 나이치고는 꽤 몸매가 좋은 편이다.
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="3.1"></a>길드</h2>
+			
+			원래 매니저 겸 의상 담당으로 가입하였으나, 노조미의 계략에 아이돌 길드 【카르미나】 제3의 멤버로 발탁되어 활동을 시작하였다.
+			<br></br>
+			그 결과, 14세의 나이에 아이돌, 매니저, 의상 담당, 그리고 옷가게 점장으로 자그마치 직업을 4개나 보유하게 되었고, 어른들도 쉽게 해내질 못할 하드한 스케줄을 소화중.
+			<br>
+			</br>
+			<span style="font-weight:bold">전투 시 특별 대화 이벤트가 있는 캐릭터</span><br>
+			<img src="../../Images/charIcon/nozomi_Icon.png" style="max-width:100%; height:auto;">
+			<img src="../../Images/charIcon/chika_Icon.png" style="max-width:100%; height:auto;">
+			<img src="../../Images/charIcon/rei_Icon.png" style="max-width:100%; height:auto;">
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="4.1"></a>장비 일람</h2>
+			
+			<h3><a name="4.1.1"></a>1. 공통 장비</h3>
+			<details>
+				<summary>RANK1 ~ RANK9</summary>
+				<table style="border:2px solid">
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK1
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/157_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/157_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/110_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/61_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/23_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/21_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK2
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/156_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/164_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/90_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/47_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/23_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/21_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK3
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/163_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/156_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/88_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/58_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/22_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/31_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK4
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/191_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/163_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/86_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/56_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/21_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/30_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK5
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/161_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/191_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/84_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/54_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/20_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/29_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK6
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/190_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/161_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/82_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/64_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/27_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/84_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK7
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/202_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/190_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/80_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/16_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/25_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/18_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK8
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/245_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/202_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/231_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/185_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/225_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/16_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK9
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/285_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/245_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/296_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/202_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/269_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/229_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+				</table>
+			</details>
+			
+			<details>
+				<summary>RANK10 ~</summary>
+				<table style="border:2px solid">
+				
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK10
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/327_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/285_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/300_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/263_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/290_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/268_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK11
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/351_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/327_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/338_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/300_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/328_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/290_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK12
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/388_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/351_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/374_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/338_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/366_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/328_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK13
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/422_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/388_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/408_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/374_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/403_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/365_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					
+					<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK14
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/458_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/422_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/449_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/412_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/439_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/402_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+					
+										<tr>
+						<td colspan="6" style="background-color:#f55291;">
+						<span style="color:white">
+						RANK15
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="../../Images/equipments/i_noimage.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/458_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/i_noimage.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/447_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/i_noimage.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+						<td>
+						<img src="../../Images/equipments/440_s.png" style="vertical-align:middle; max-width:100%; height:auto;">
+						</td>
+					</tr>
+				
+				</table>
+			</details>
+			
+			<br></br>
+			<br></br>
+			
+			<h3><a name="4.1.2"></a>2. 전용 장비</h3>
+			<table style="border:2px solid">
+					<tr>
+					<td rowspan="2" style="border:2px solid">
+					<img src="../../Images/exclusive/tsumugi_ex.png">
+					</td>
+					<td colspan="4" style="background-color:#f55291;">
+					<span style="color:white; font-weight:bold;">
+					하이 꾸뛰리에르 벨트
+					</span>
+					</td>
+					</tr>
+					<tr>
+					<td colspan="4" style="border:2px solid">
+					바느질용 실패를 수납해둔 츠무기 전용 특제 벨트.
+					<br>
+					실패에서 신속하게 뽑아낸 마법의 실로 적을 옭아매어 순식간에 의식을 잃게 만든다.
+					</td>
+					</tr>
+					
+					<tr>
+					<td style="background-color:#f55291; border-right:2px solid">
+					<span style="color:white">
+					강화 스킬
+					</span>
+					</td>
+					<td colspan="4" style="border-right:2px solid">
+					캡처 스트링+
+					</td>
+					</tr>
+
+					<tr>
+					<td style="background-color:#f55291; border-right:2px solid">
+					<span style="color:white">
+					강화 내용
+					</span>
+					</td>
+					<td colspan="4" style="border-right:2px solid">
+					앞에서 2번째에 있는 적 하나에게 물리 <span style ="color:rgb(200,35,35)">(중)</span> 데미지를 입히고,	그대로 적을 살짝 끌어당겨 <span style="color:rgb(200,35,35)">스턴 상태로 만든다. 그리고 자신의 물리 공격력을 (중) 증가, 물리 방어력을 (소) 증가시킨다.</span>
+					</td>
+					</tr>
+					
+					
+					<tr style="border:2px solid">
+						<td style="background-color:#f55291;">
+						<span style="color:white">
+						레벨
+						</span>
+						</td>
+						<td style="background-color:#f55291;">
+						<span style="color:white">
+						물리 공격력
+						</span>
+						</td>
+						<td style="background-color:#f55291;">
+						<span style="color:white">
+						물리 방어력
+						</span>
+						</td>
+						<td style="background-color:#f55291;">
+						<span style="color:white">
+						마법 방어력
+						</span>
+						</td>
+						<td style="background-color:#f55291;">
+						<span style="color:white">
+						물리 크리티컬
+						</span>
+						</td>
+					</tr>
+					
+					
+					<tr>
+						<td>
+						Lv1
+						</td>
+						<td>
+						50
+						</td>
+						<td>
+						6
+						</td>
+						<td>
+						4
+						</td>
+						<td>
+						4
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv30
+						</td>
+						<td>
+						123
+						</td>
+						<td>
+						15
+						</td>
+						<td>
+						10
+						</td>
+						<td>
+						10
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv50
+						</td>
+						<td>
+						173
+						</td>
+						<td>
+						21
+						</td>
+						<td>
+						14
+						</td>
+						<td>
+						14
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv70
+						</td>
+						<td>
+						223
+						</td>
+						<td>
+						27
+						</td>
+						<td>
+						18
+						</td>
+						<td>
+						18
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv90
+						</td>
+						<td>
+						273
+						</td>
+						<td>
+						33
+						</td>
+						<td>
+						22
+						</td>
+						<td>
+						22
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv110
+						</td>
+						<td>
+						323
+						</td>
+						<td>
+						39
+						</td>
+						<td>
+						26
+						</td>
+						<td>
+						26
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv130
+						</td>
+						<td>
+						373
+						</td>
+						<td>
+						45
+						</td>
+						<td>
+						30
+						</td>
+						<td>
+						30
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv140
+						</td>
+						<td>
+						398
+						</td>
+						<td>
+						48
+						</td>
+						<td>
+						32
+						</td>
+						<td>
+						32
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						Lv150
+						</td>
+						<td>
+						423
+						</td>
+						<td>
+						51
+						</td>
+						<td>
+						34
+						</td>
+						<td>
+						34
+						</td>
+					</tr>
+			</table>
+								
+			<br></br>
+			<br></br>
+			
+			<h2><a name="5.1"></a>유니온 버스트(UB)</h2>
+			
+			※ 설명란에 기재된 데미지는 상대 방어력이 0일 때로 가정하였습니다.
+			<br></br>
+			<h3><a name="5.1.1"></a>1. 페이탈리티 바인드</h3>
+			<table style="border:2px solid">
+				<tr>
+					<td colspan="2">
+					<img src="../../Images/unionburst/tsumugi.gif" style="max-width:100%; height:auto;">
+					</td>
+				</tr>
+				
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 설명
+					</span>
+					</td>
+					
+					<td>
+					범위 내의 적 모두에게 물리 (중) 데미지를 입힘과 동시에 속박 상태로 만들며, 범위 내의 적들 중에서 가장 먼 곳에 있는 적을 살짝 끌어당긴다. 또, 가장 가까운 곳에 있는 적은 살짝 날려보낸다.
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과
+					</span>
+					</td>
+					
+					<td>
+					범위 내 적 모두에게 물리 데미지 {18 * (<span style="color:rgb(35,200,35); font-weight:bold">스킬Lv</span> + 1) + <span style="color:rgb(200,35,35); font-weight:bold">물리 공격력</span> * 1.44}
+					<br>
+					속박 (2.5초)
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="border:2px solid; text-align:left">
+					<ul>
+						<li>Lv105일 때 (중) 정도 범위로 6431 데미지, (소) 범위로 끌어당기기</li>
+						<li>☆5 시점에는 8095 데미지</li>
+						<li>끌어당기기/밀어내기는 1캐릭 정도의 거리</li>
+						<li>도발 상태의 적이 있을 경우, 도발 상태의 적만을 밀어내고 끌어당기기는 사용하지 않음</li>
+						<br>
+						<img src="../../Images/description/tsumugi_UB.png" style="max-width:80%; height:auto;">
+						<li>캐릭터 배치에 따라서는 후열에 위치하는 캐릭터를 최전선까지 끌어당길 수도 있다</li>
+					</ul>
+				</tr>
+
+			</table>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="6.1"></a>스킬</h2>
+			
+			<h3><a name="6.1.1"></a>1. 캡처 스트링</h3>
+				<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					사용 조건
+					</span>
+					</td>
+					
+					<td>
+					RANK2 이상
+					</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 설명
+					</span>
+					</td>
+					
+					<td>
+					앞에서 2번째의 적 하나에게 물리 (중) 데미지를 입히고 앞으로 살짝 끌어당긴다.
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과 (전장 미착용)
+					</span>
+					</td>
+					
+					<td>
+					적 하나에게 물리 공격력 {20 * (<span style="color:rgb(35,200,35); font-weight:bold">스킬Lv</span>+ 1) + <span style="color:rgb(200,35,35); font-weight:bold">물리 공격력</span>* 1.2}
+					</td>
+				</tr>
+				
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과 (전장 착용)
+					</span>
+					</td>
+					
+					<td>
+					적 하나에게 물리 공격력 {20 * (<span style="color:rgb(35,200,35); font-weight:bold">스킬Lv</span>+ 1) + <span style="color:rgb(200,35,35); font-weight:bold">물리 공격력</span>* 1.2}
+					<br>
+					물리 공격력 업 {12 * (<span style="color:rgb(35,200,35); font-weight:bold">스킬Lv</span>+ 1)} (12초)
+					<br>
+					물리 방어력 업 {0.4 * (<span style="color:rgb(35,200,35); font-weight:bold">스킬Lv</span>+ 1)} (12초)
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="border:2px solid; text-align:left">
+					<ul>
+						<li>전장 미착용</li>
+						<ul>
+							<li>Lv105일 때 2번째의 적에게 5359 데미지, 약간의 끌어당기기</li>
+							<li>끌어당기는 거리는 UB와 거의 비슷한 1캐릭 분량</li>
+							<img src="../../Images/description/tsumugi_Skill1.png" style="max-width:80%; height:auto;">
+							<br></br>
+							<li>캐릭터 배치에 따라서는 후열에 위치하는 캐릭터를 최전선까지 끌어당길 수도 있다</li>
+							<li>자신의 진영까지 끌어당기면 적 시선이 반대로 되지만 그렇다고 아군이 되는 건 아니다</li>
+							<li>재사용까지의 텀이 상당히 길기에 적 전열 2명을 끌어당기는 경우는 많지 않음</li>
+							<li>전용 장비를 착용한 리마에게 무효화되고 안 되고가 갈리기 때문에 스킬 레벨은 올려두는 것을 권장</li>
+							<li>끌어당기기는 데미지를 무효화시키지만, 적이 피하면 이 효과는 사라짐</li>
+							<li>끌어당기기에 상태 이상 판정이 있는 듯하여 적 Lv과 스킬Lv에 차이가 있을 경우 실패하기도 한다</li>
+						</ul>
+					</ul>
+					
+					<br>
+					
+					<ul>
+						<li>전장 착용</li>
+						<ul>
+							<li>Lv105일 때 2번째의 적에게 5359 데미지, 약간의 끌어당기기, 1.5초간 스턴, 물리 공격력 1272 상승 (12초), 물리 방어력 43 상승 (12초)</li>
+						</ul>
+					</ul>
+					
+					</td>
+				</tr>
+
+			</table>
+
+			<br>
+
+			<h3><a name="6.1.2"></a>2. 스파이럴 얀</h3>
+			<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					사용 조건
+					</span>
+					</td>
+					
+					<td>
+					RANK4 이상
+					</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 설명
+					</span>
+					</td>
+					
+					<td>
+					범위 내 적 모두에게 물리 (소) 데미지를 입히고, 이동 속도와 행동 속도를 (소) 감소시킨다.
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과
+					</span>
+					</td>
+					
+					<td>
+					범위 내 적 모두에게 물리 공격력 {2.25 * (<span style="color:rgb(35,200,35); font-weight:bold">스킬Lv</span>+ 1) + <span style="color:rgb(200,35,35); font-weight:bold">물리 공격력</span>* 0.18}
+					<br>
+					이동 속도 감소 (12초)
+					<br>
+					행동 속도 10% 감소 (12초)
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="border:2px solid; text-align:left">
+					<ul>
+						<li>Lv98일 때 (중) 범위에 803 데미지, 속도 감소 (12초)</li>
+						<li>범위 디버프이기 때문에 행동 속도 감소는 10%로 낮은 편</li>
+						<li>끌어당긴 적은 원래 위치로 돌아가지 않으므로 이동 속도 감소는 효과가 없음</li>
+					</ul>
+					</td>
+				</tr>
+
+			</table>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="7.1"></a>EX스킬</h2>
+			
+			<h3><a name="7.1.1"></a>1. 테일러 거츠</h3>
+				<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					사용 조건
+					</span>
+					</td>
+					
+					<td>
+					RANK7 이상
+					</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 설명
+					</span>
+					</td>
+					
+					<td>
+					전투 시작 시 자신의 물리 방어력이 (중) 상승한다.
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과
+					</span>
+					</td>
+					
+					<td>
+					물리 방어력 업 {2 * (<span style="color:rgb(35,200,35); font-weight:bold">스킬Lv</span>+ 1)}
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="border:2px solid; text-align:left">
+					<ul>
+						<li>이 스킬을 습득함으로써 겨우 서브 탱커로서의 역할을 담당하게 된다</li>
+						<li>그렇다고 전적으로 탱커를 담당하기엔 자체 성능 부족</li>
+					</ul>
+					</td>
+				</tr>
+
+			</table>
+			
+			<br>
+			
+			<h3><a name="7.1.2"></a>2. 테일러 거츠+</h3>
+						<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					사용 조건
+					</span>
+					</td>
+					
+					<td>
+					RANK7 & ☆5 이상
+					</td>
+				</tr>
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 설명
+					</span>
+					</td>
+					
+					<td>
+					전투 시작 시 자신의 물리 방어력이 <span style="color:rgb(200,35,35); font-weight:bold">(대)</span> 상승한다.
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					스킬 효과
+					</span>
+					</td>
+					
+					<td>
+					물리 방어력 업 {32 + 2 * (<span style="color:rgb(35,200,35); font-weight:bold">스킬Lv</span>)}
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="border:2px solid; text-align:left">
+					<ul>
+						<li>☆5를 달성하면 추가 보너스가 붙는다.</li>
+					</ul>
+					</td>
+				</tr>
+
+			</table>
+											
+			<br></br>
+			<br></br>
+			
+			<h2><a name="8.1"></a>행동 패턴</h2>
+				
+				<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291">
+					<span style="color:white">
+					시작
+					</span>
+					</td>
+
+				</tr>
+				
+				<tr>
+				<td>
+					<img src="../../Images/patterns/skill_1_1.png" style="vertical-align:middle; max-width:50px; height:auto;">
+					<span class="chevron"></span>
+					<img src="../../Images/patterns/i_attacker.png" style="vertical-align:middle">
+					<span class="chevron"></span>
+					<img src="../../Images/patterns/skill_1_2.png" style="vertical-align:middle; max-width:50px; height:auto;">
+				</td>
+				</tr>
+				
+				<tr>
+					<td style="background-color:#f55291">
+					<span style="color:white">
+					로테이션
+					</span>
+					</td>
+				</tr>
+				
+				<tr>
+				<td>
+				
+				<img src="../../Images/patterns/i_attacker.png" style="vertical-align:middle">
+				<span class="chevron"></span>
+				<img src="../../Images/patterns/i_attacker.png" style="vertical-align:middle">
+				<span class="chevron"></span>
+				<img src="../../Images/patterns/skill_1_2.png" style="vertical-align:middle; max-width:50px; height:auto;">
+				<span class="chevron"></span>
+				<img src="../../Images/patterns/i_attacker.png" style="vertical-align:middle">
+				<span class="chevron"></span>
+				<img src="../../Images/patterns/i_attacker.png" style="vertical-align:middle">
+				<span class="chevron"></span>
+				<img src="../../Images/patterns/skill_1_2.png" style="vertical-align:middle; max-width:50px; height:auto;">
+				<span class="chevron"></span>
+				<img src="../../Images/patterns/i_attacker.png" style="vertical-align:middle">
+				<span class="chevron"></span>
+				<img src="../../Images/patterns/skill_1_1.png" style="vertical-align:middle; max-width:50px; height:auto;">
+
+				</td>
+				</tr>
+			</table>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="9.1"></a>캐릭터 순서</h2>
+			
+			<table style="border:2px solid">
+				<tr>
+					<td colspan="7" style="background-color:#f55291;">
+					<span style="color:white">
+					전열
+					</span>
+					</td>
+				</tr>
+	
+
+				<tr>
+					<td style="background-color:rgb(230,230,230);">
+					뒤
+					</td>
+					<td>
+					<img src="../../Images/charIcon/misogi_Icon.png" style="max-width:80%; height:auto;">
+					</td>
+					<td>
+					<img src="../../Images/charIcon/hiyori_Icon.png" style="max-width:80%; height:auto;">
+					</td>
+					<td>
+					<img src="../../Images/charIcon/tsumugi_Icon.png" style="max-width:100%; height:auto;">
+					</td>
+					<td>
+					<img src="../../Images/charIcon/ayane_chrismas_Icon.png" style="max-width:80%; height:auto;">
+					</td>
+					<td>
+					<img src="../../Images/charIcon/eriko_valentine_Icon.png" style="max-width:80%; height:auto;">
+					</td>
+					<td style="background-color:rgb(230,230,230);">
+					앞
+					</td>
+				</tr>
+			</table>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="10.1"></a>캐릭터 스토리</h2>
+			
+			</br>
+			<table style="border:2px solid">
+				<tr>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					화수
+					</span>
+					</td>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					제목
+					</span>
+					</td>
+					<td style="background-color:#f55291;">
+					<span style="color:white">
+					능력치 보너스
+					</span>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제1화
+					</td>
+					<td>
+					-
+					</td>
+					<td>
+					-
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제2화
+					</td>
+					<td>
+					-
+					</td>
+					<td>
+					물리 공격력+15
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제3화
+					</td>
+					<td>
+					-
+					</td>
+					<td>
+					물리 공격력+30
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제4화
+					</td>
+					<td>
+					-
+					</td>
+					<td>
+					물리 공격력+30
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제5화
+					</td>
+					<td>
+					-
+					</td>
+					<td>
+					물리 공격력+40
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제6화
+					</td>
+					<td>
+					-
+					</td>
+					<td>
+					물리 공격력+40 / 물리 크리티컬+10
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제7화
+					</td>
+					<td>
+					-
+					</td>
+					<td>
+					물리 공격력+40 / 물리 크리티컬+10
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+					제8화
+					</td>
+					<td>
+					-
+					</td>
+					<td>
+					물리 공격력+60 / 물리 크리티컬+15 / TP 자동 회복+60
+					</td>
+				</tr>
+				
+			</table>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="11.1"></a>종합평가</h2>
+			
+			<ul>
+			<li>총평</li>
+				<ul>
+					<li>기본 방어력 상승인 EX스킬부터 해서 방어형 캐릭터 (아레나 지향)</li>
+					<li>속박과 강제이동 같은 유니크 스킬 보유 (끌어당기기는 첫등장 때에)</li>
+					<li>끌어당긴 적은 원래 위치로 돌아가지 않음</li>
+					<li>권갑계열 장비이기 때문에 높은 TP 상승과 TP 소비 감소 덕분에 UB 회전율이 높다</li>
+					<li>루나의 탑 보스전에서 후방의 적을 앞으로 끌어오기 위해 채용</li>
+				</ul>
+			</ul>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="11.1"></a>운용과 편성</h2>
+			
+			<ul>
+				<li>아레나 적성도 : 높음</li>
+				<ul>
+					<li>공격/방어 모두 적합. EX스킬의 영향으로 높은 방어력과 뛰어난 UB 회전율이 특징</li>
+					<li>방덱에서는 사소한 차이로 최적의 조합이 크게 변하기 때문에 대책 세우기가 어려운 게 특징</li>
+					<li>공덱에서는 도발 탱커를 바로 끌어당겨 무력화시키기 위한 용도로 채용</li>
+				</ul>
+			</ul>
+			<ul>
+				<li>클랜전 적성도 : 낮음</li>
+				<ul>
+					<li>날려보내기로 적 스킬 캔슬 가능</li>
+						<ul>
+							<li>가끔 보스가 관련 디버프에 내성을 가지고 있어 안 될 때도 있다</li>
+							<li>츠무기 자체의 화력이 너무 낮아 활약 가능성은 매우 낮음</li>
+						</ul>
+				</ul>
+			</ul>
+			<ul>
+				<li>랭크, 전용장비 관련</li>
+				<ul>
+					<li>RANK9에서 TP 상승이 최고치지만 명중이 0</li>
+					<li>UB는 1히트라서 헛치면 탱크를 속박시키지도 못하고 대열 흔들기도 못한다</li>
+						<ul>
+							<li>때문에 아레나에서는 종종 명중을 중요시하여, 최소 보라 테두리 이상이 종종 보임</li>
+						</ul>
+					<li>전용장비는 공격력과 방어력 상승이 키포인트. 장비가 올려주는 방어력도 방어력이지만, 크리티컬 수치도 대폭 올려주므로 만약 츠무기를 주로 채용한다면 필수</li>
+				</ul>
+			</ul>
+			
+			<br></br>
+			<br></br>
+			
+			<h2><a name="12.1"></a>재능개화</h2>
+			
+			<h3><a name="12.1.1"></a>1. ★3 일러스트</h3>
+			<img src="../../Images/charPortraits/tsumugi_3.png" style="max-width:100%; height:auto;">
+			<br></br>
+			
+		<br></br>
+		<br></br>
+		
+			<h2><a name="14.1"></a>기타</h2>
+			
+			<h3><a name="14.1.1"></a>1. 생일 기념 일러스트</h3>
+			<img src="../../Images/birthday/tsumugi_birthday.jpg" style="max-width:100%; height:auto;">
+			
+		</div>
+
+		<div id="footer">
+		<p>※ 본 페이지는 HTML/CSS로 작성하였으며, 1600x900 해상도에 최적화되어 있습니다.<br>브라우저는 Google Chrome을 권장합니다.</p>
+		</div>
+
+		<a style="display:scroll; position:fixed; bottom:10px; right:10px;" href="#" title="맨 위로"><img src="../../Images/mv_img_cal_2.png"></a>
+
+
+</body>
+
+
+
+</html>

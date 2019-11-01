@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="Images/favicon_onigiri.png">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<title> 프린세스 커넥트! Re:Dive 위키 </title>
+
+	<style type="text/css">
+	a:link { color: black; text-decoration: none;}
+	a:visited { color: black; text-decoration: none;}
+	a:hover { color:#0078d7; text-decoration: underline;}
+	</style>
+	
+</head>
+
+
+
+<body>
+	
+		<div id="container">
+		
+			
+			<div id="sidebar">
+				<h1 id="toggle-bar" style="text-align:center">
+				☰ MENU
+				</h1>
+				
+				<ul class="mainMenu">
+					<ul>
+					<br>
+					<li><a href="../index.html">Top</a></li>
+					</ul>
+					<br>
+					<h3>처음이신가요?</h3>
+						<ul>
+						<li><a href="../Pages/intro.html">게임소개</a></li>
+						<li><a href="../Pages/howtoplay.html">뉴비 지침서</a></li>
+						<li><a href="../Pages/questions.html">자주 묻는 질문들</a></li>
+						</ul>
+					<br>
+		
+					<p class="text1">
+					<h3>캐릭터</h3>
+						<ul>
+						<li><a href="../Pages/charList.html">캐릭터 목록</a></li>
+						<li>입수 방법</li>
+						<li>운용에 관하여</li>
+						</ul>
+					<br>
+					
+					<p class="text1">
+					<h3>퀘스트</h3>
+						<ul>
+						<li>전체적인 흐름</li>
+							<li>메인 퀘스트</li>
+							
+							<details>
+							<summary>NORMAL</summary>
+								<ul>
+								테스트1
+								</ul>
+							</details>
+							
+							<details>
+							<summary>HARD</summary>
+								<ul>
+								테스트1
+								</ul>
+							</details>
+							
+							<details>
+							<summary>VERY HARD</summary>
+								<ul>
+								테스트1
+								</ul>
+							</details>
+							
+						<li>던전</li>
+						<li>탐색</li>
+						<li>조사</li>
+							<ol>
+								<li>성적조사</li>
+								<li>신전조사</li>
+							</ol>
+						<li>몬스터 일람</li>
+						</ul>
+					<br>
+					<h3>아레나</h3>
+						<ul>
+						<li>아레나에 대하여</li>
+						</ul>
+					<br>
+					
+					<p class="text1">
+					<h3>상점</h3>
+						<ul>
+						<li>용돈쓰기</li>
+						<li>상점</li>
+							<ol>
+								<li>여신의 보석 상점</li>
+								<li>한정 상점</li>
+								<li>마스터 상점</li>
+							</ol>
+						<li>쥬얼 상점</li>
+						</ul>
+					<br>
+										
+					<p class="text1">
+					<h3>시스템</h3>
+						<ul>
+						<li>클랜</li>
+						<li>길드하우스</li>
+						<li>알쓸신잡</li>
+						</ul>
+						<br>
+				</ul>
+			</div>
+			
+			<script>
+			
+			function toggleMenu()
+			{
+				let getMenu = document.querySelector(".mainMenu");
+				getMenu.classList.toggle("hamburger");
+				
+			}
+			
+			let getHamburger = document.querySelector("#toggle-bar");
+			getHamburger.addEventListener("click", toggleMenu);
+			
+			</script>
+			
+			
+			
+			<div id="contents">
+			<h2>뉴비 지침서</h2>
+			</div>
+			
+						<div id="footer">
+			<p>※ 본 페이지는 HTML/CSS로 작성하였으며, 1600x900 해상도에 최적화되어 있습니다.<br>브라우저는 Google Chrome을 권장합니다.</p>
+			</div>
+		</div>
+</body>
+
+
+
+</html>
