@@ -1,5 +1,5 @@
 	/*구글 폰트에서 나눔고딕 폰트 가져오기*/
-	@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+	@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 	/*
 	그 다음 적용시키고 싶은 곳에 font-family : 'Nanum Gothic'; 입력
 	*/
